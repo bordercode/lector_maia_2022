@@ -6,7 +6,10 @@ title: Calendario
 weight: 50
 ---
 
-Primera semana de Mayo borradoor. 
+
+1. Trabajo de campo: Febrero?
+
+2- Entrega de borrador.  Primera semana de Mayo. 
 
 
 

@@ -56,7 +56,7 @@ Es importante consierar **Regulación ambiental** ej. el marco juridico en medio
 
 *IMPORTANTE** Dado que conocemos que el área de **Calakmul** es una area bajo la denominación de: **Reserva de la Biosfera RB**, ¿Que implicaciones para la actividad antropogénica se tienen? ¿Como el estatus de **RB** se expresa en diferencias ambientales (ej. conservación/pérdida de cobertura vegetal, niveles de deforestación, incursión de actividad humana ej. agricultura, etc.,).  
 
-La diferencia observada en los "modos de producción de miel", en la zona se puede asociar con diferencias en el **marco júrídico ambiental** entre ambas zonas, debido a que este marco implica condiciones ambientales distintas para la reproducción de las abejas entre ambas zonas de interés.  
+La diferencia observada en los "modos de producción de miel", en la zona se puede asociar con diferencias en el **marco júrídico ambiental** entre ambas zonas, debido a que este marco implica la existencia efectiva de condiciones ambientales distintas para la reproducción de las abejas entre ambas zonas de interés.  
 
 
 
