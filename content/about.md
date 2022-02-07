@@ -9,7 +9,6 @@ weight: 50
 
 1. Trabajo de campo: Febrero?
 
-2- Entrega de borrador.  Primera semana de Mayo. 
+2. Entrega de borrador.  Primera semana de Mayo. 
 
-
-
+3. Presentación.
