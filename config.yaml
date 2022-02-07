@@ -1,7 +1,7 @@
 baseURL: https://proceso-tesis-mjbr-maia2022.netlify.app/
 languageCode: en
 defaultContentLanguage: en
-title: Even - A super concise theme for Hugo
+title: Análisis comparativo de las variaciones climáticas y modo de producción de miel en el corredor Balaan Kaax. Calakmul de los años 2010-2020
 preserveTaxonomyNames: yes
 enableRobotsTXT: yes
 enableEmoji: yes
@@ -24,7 +24,7 @@ sitemap:
   priority: 0.5
 menu:
   main:
-    - identifier: home
+    - identifier: Tesis
       name: Home
       url: /
       weight: 10
