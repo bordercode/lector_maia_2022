@@ -52,6 +52,18 @@ b) Contar con las series temporales de la variables climáticas de interés en e
 
 - ¿Qué factores afectan la producción de miel? Tanto en terminos generales como en la zona particular? Revisión de literatura: **RL**
 
+
+**Importante** considerar que las zonas de estudio seleccionadas para comparación pueden estar adscritas a distintos regímenes jurídicos ambientales. Ej. Balaan Kaax, esta registrada como una area de protección de flora y fauna, este estatus tiene implicaciones sobre la actividad antropogénica permitida en la zona.
+
+Es sitio RAMSAR. Sitio no. 1332. Designado en 2004. Superficie: 
+131,610 ha.
+
+Note que: *"Changes in land property and planning are the main threat to this area."* 
+
+
+
+Esta particularidad generaría condiciones ambientales distintas que influyen en los "modos de producción".  Este aspecto jurídico ambiental, es independiente del comportamiento de variables climaticas y fenómenos como la  sequía o los cambios en los regímenes de precipitación.   
+
 - ¿Son las variaciones climáticas un factor que los propios productores identifican como un riesgo/amenaza para su actividad? Trabajo de campo:  **TC**
 
 - ¿Cómo se vinculan las variaciones climáticas con la producción de miel?  **RL**

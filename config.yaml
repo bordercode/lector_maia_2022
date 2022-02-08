@@ -33,12 +33,8 @@ menu:
     - identifier: archives
       name: Versiones
       url: /post/
-      
       weight: 30
-    - identifier: tags
-      name: Cartografía
-      url: /tags/
-      weight: 40
+    
 
 params:
   archivePaginate: 50
