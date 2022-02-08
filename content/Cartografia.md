@@ -8,7 +8,7 @@ weight: 40
 
 
 
-[Sitio RAMSAR](https://rsis.ramsar.org/ "Cobertura area 131,610 ha")
+[Sitio RAMSAR](https://rsis.ramsar.org/ "Cobertura area del 131,610 ha")
 
 [Area de Protección de Flora y Fauna](https://simec.conanp.gob.mx/ficha.php?anp=45&reg=9 "Superficie: 128,390.15 ha")
 
