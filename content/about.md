@@ -9,11 +9,11 @@ weight: 50
 
 1. Trabajo de campo: **Febrero**?
 
-2. Entrega de borrador.  **18-29 Mayo**. 
+2. Entrega de borrador.  **18-29 mayo**. 
 
-3. Liberación de borrador **1 a 5 Junio**
+3. Liberación de borrador **1 a 5 junio**
 
-4. Registro título de tésis en RAP **29 junio a 3 julio **
+4. Registro título de tésis en RAP **29 junio a 3 julio**
 
 5. Presentación de exámen **3 de Julio a 31 Agosto** 
 
