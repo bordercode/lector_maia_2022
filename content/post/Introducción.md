@@ -1,11 +1,11 @@
 ---
 autoCollapseToc: true
 categories:
-- Theme preview
-- category-2
-- category-3
+- Motivación
+- Justificación
+- Objetivos
 contentCopyright: MIT
-date: "2018-07-10T00:00:00+08:00"
+date: "2022-01-08T00:00:00+08:00"
 draft: false
 lastmod: "2018-07-10T00:00:00+08:00"
 mathjax: true
