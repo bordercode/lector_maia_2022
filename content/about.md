@@ -7,10 +7,13 @@ weight: 50
 ---
 
 
-1. Trabajo de campo: Febrero?
+1. Trabajo de campo: **Febrero**?
 
-2. Entrega de borrador.  Primera semana de Mayo. 
+2. Entrega de borrador.  Primera semana de **Mayo**. 
 
-3. Presentación.
+3. Liberación de borrador **Junio**
 
-4.c
+4. Presentación de exámen **Julio**
+
+5. Registro título **Julio**
+
