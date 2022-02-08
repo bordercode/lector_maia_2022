@@ -9,20 +9,19 @@ weight: 40
 
 # Tareas necesarias: 
 
-a) Rrealizar la cartografía de la zona a estudiar (Areas de **Balaan Kaax y Calakmul** ). 
+#### 1. Realizar la cartografía de la zona a estudiar (Areas de **Balaan Kaax y Calakmul** ). 
 
 Algunas coberturas de interés desde la perspectiva ambiental. 
-
 ### Hidrología:  
 
-* [X] Escurrimientos superficiales y Subterráneos
-* [X] Acuíferos
-* [ ] Cenotes
-* [ ] Humedales
-* [ ] Zonas sujetas a inundación
-* [X] Acueductos y pozos de extracción
-* [ ] Manglares
-* [ ] Petenes[^1]
+  * [X] Escurrimientos superficiales y Subterráneos
+  * [X] Acuíferos
+  * [ ] Cenotes
+  * [ ] Humedales
+  * [ ] Zonas sujetas a inundación
+  * [X] Acueductos y pozos de extracción
+  * [ ] Manglares
+  * [ ] Petenes[^1]
   
 
 [^1]: Formaciones exclusivas de la región de la Península de Yucatán. Conforman
@@ -38,4 +37,15 @@ suelo donde se desarrollan (CONANP, 2006)
 
 
 
-b) Contar con las series temporales de la variables climáticas de interés en el periodo a estudiar para verificar la existencia de "variaciones". 
+#### Representación gráfica de las series temporales de la variables climáticas de interés en el periodo a estudiar para verificar la existencia de "variaciones". 
+
+* [ ] Temperatura
+* [ ] Precipitación
+* [ ] Sequía.
+
+
+Algunos indices de interés para determinar las condiciones climáticas en la zona de estudio. [^1]
+
+* [ ]:
+
+- [ ] NDVI
