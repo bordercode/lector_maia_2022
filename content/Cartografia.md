@@ -12,6 +12,4 @@ weight: 40
 
 [Area de Protección de Flora y Fauna](https://simec.conanp.gob.mx/ficha.php?anp=45&reg=9 "Superficie: 128,390.15 ha")
 
-
-
 [Bala'an K'aax](https://rsis.ramsar.org/RISapp/files/40134188/pictures/MX1332map.pdf?language=es)
