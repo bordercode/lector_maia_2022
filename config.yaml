@@ -31,7 +31,7 @@ menu:
 
       
     - identifier: archives
-      name: Versiones
+      name: Avances
       url: /post/
       weight: 30
     

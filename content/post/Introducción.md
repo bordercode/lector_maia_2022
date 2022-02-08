@@ -20,7 +20,12 @@ weight: 10
 
 # Introducción.
 
-En México, la apicultura es una de las actividades de mayor relevancia por el impacto que tiene en el **desarrollo comunitario.** :heavy_check_mark: Por ello, se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema para fortalecer a la actividad apícola (Rural, 2020).
+En México, la apicultura es una de las actividades de mayor relevancia por el impacto que tiene en el **desarrollo comunitario.** :heavy_check_mark: [^1]
+
+
+[^1]:aaaa
+
+Por ello, se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema para fortalecer a la actividad apícola (Rural, 2020).
     Se conoce como apicultura a la actividad agropecuaria, que es principalmente la práctica dedicada a la cría y explotación racional de las abejas. Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021)
       No obstante, los cambios actuales en el clima observados en los escenarios que propone el Grupo intergubernamental de cambio climático (IPCC), podrían impactar la apicultura al acrecentar el riesgo de la actividad con base en dos sentidos: directo, considerando la respuesta intra e inter específica de la flora melífera y las abejas, e indirecto, enfocado a las afectaciones socioeconómicas de los apicultores por los riesgos de producción y la incertidumbre que conlleva, estos escenarios.  (Gallardo-López, Pérez, Landeros, & Sol, 2021)
       La importancia económica de la apicultura está más que sustentada en un entorno de desarrollo comunitario, no obstante, su valor va más allá de los términos monetarios al desempeñar un papel fundamental en la regulación del medio ambiente gracias a su función de promoción de agentes polinizadores, así como también, en tanto componente cultural que forma parte de las estrategias de diversificación de los medios de vida sostenibles (MVS) en las comunidades rurales. (Becerril & Hernández, 2020) . 
