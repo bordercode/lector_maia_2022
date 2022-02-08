@@ -41,7 +41,7 @@ weight: 20
 
 **José Luis**
 
-#### Aspectos preeliminares: 
+#### Tareas necesarias: 
 
 a) Es necesario realizar la cartografía de la zona a estudiar (Area de **Balaan Kaax y Calakmul** ) 
 
@@ -53,7 +53,7 @@ b) Contar con las series temporales de la variables climáticas de interés en e
 - ¿Qué factores afectan la producción de miel? Tanto en terminos generales como en la zona particular? Revisión de literatura: **RL**
 
 
-**Importante** considerar que las zonas de estudio seleccionadas para comparación pueden estar adscritas a distintos regímenes jurídicos ambientales. Ej. Balaan Kaax, esta registrada como una area de protección de flora y fauna, este estatus tiene implicaciones sobre la actividad antropogénica permitida en la zona.
+**Importante** considerar que las zonas de estudio seleccionadas para comparación pueden estar adscritas a distintos regímenes jurídicos ambientales. Ej. Bala'an Ka'ax, estáregistrada como una area de protección de flora y fauna, este estatus tiene implicaciones sobre la actividad antropogénica permitida en la zona.
 
 Es sitio RAMSAR. Sitio no. 1332. Designado en 2004. Superficie: 
 131,610 ha.
