@@ -67,21 +67,21 @@ con base en dos sentidos: directo, considerando la respuesta intra e inter espec
       
 La importancia económica de la apicultura está más que sustentada en un entorno de desarrollo comunitario, no obstante, su valor va más allá de los términos monetarios al desempeñar un papel fundamental en la regulación del medio ambiente gracias a su función de promoción de agentes polinizadores, así como también, en tanto componente cultural que forma parte de las estrategias de diversificación de los medios de vida sostenibles (MVS) en las comunidades rurales. (Becerril & Hernández, 2020). 
       
-**Según Castellanos la especie Apis melífera, representa el valor económico más importante de la polinización de cultivos en todo el mundo. Los rendimientos de algunas frutas, semillas y frutos secos, disminuye por más del 90% sin este polinizador,** [^3]
+**Según Castellanos la especie Apis melífera, representa el valor económico más importante de la polinización de cultivos en todo el mundo. Los rendimientos de algunas frutas, semillas y frutos secos, disminuye por más del 90% sin este polinizador,** [^6]
 
 
-[^3]:
+[^6]:
 
-      Comprender los factores ambientales que afectan el habitat de la abeja es un objetivo principal. Documentar las amenazas sería una aportación  relevante para la continuidad de la actividad de estas comunidades en la región. 
+      Comprender los factores ambientales que afectan el habitat de la abeja es un objetivo principal. Documentar (medir) las amenazas sería una aportación  relevante para la continuidad de la actividad de estas comunidades en la región. 
 
 
-    **A considerar:** El papel de la pérdida de flora en la región de estudio. este rasgo impacta el insumo fundamental para la producción de miel.  La idea principal en este enfoque es que las abejas funcionan en un ciclo,    que por un lado permite la **actividad apícola**, esta es solo una parte del   ciclo. Y tiene implicaciones para del **"Desarrollo comunitario"**. 
+    **A considerar:** El papel de la pérdida de flora en la región de estudio. Este rasgo impacta el insumo fundamental para la producción de miel.  La idea principal en este enfoque es que las abejas funcionan en un ciclo,    que por un lado permite la **actividad apícola**, esta es solo una parte del   ciclo. Y tiene implicaciones para del **"Desarrollo comunitario"**. 
     
-    Este aspecto nos remite a consideraciones teóricas especificas de índole social como los aspectos en la esfera economica (ej. empleo, pobreza,etc, ), de carácter cultural (las formas ancestrales de producción de miel, la importancia en la cosmovision de los Mayas, -area más de corte antropológica), pero por el otro son agentes fundamentales para el equilibrio del **ecosistema.** La pérdida de flora impacta la reproducción de las abejas y este fenómeno a su vez, representa un factor adicional que avanza el desquilibrio del ecosistema.     
+    Este aspecto nos remite a consideraciones teóricas especificas de índole social como los aspectos en la esfera económica (ej. empleo, pobreza,etc, ), de carácter cultural (las formas ancestrales de producción de miel, la importancia en la cosmovision de los Mayas, -area más de corte antropológica), pero por el otro son agentes fundamentales para el equilibrio del **ecosistema.** La pérdida de flora impacta la reproducción de las abejas y este fenómeno a su vez, representa un factor adicional que avanza el desquilibrio del ecosistema.     
     
     Si el enfasis de tu trabajo es en los factores ambientales,  sería importante determinar las acciones que estan afectando a la reproducción de la abejas. Estas pueden clasificarse por su origen en: antropogénicas: ej. la expansión de la frontera agrícola, uso de semillas transgénicas, prácticas de monocultivo (soya), cambio en los patrones de cultivo de especies tradicionales (maíz, criollo o frijo por cultivos comerciales, ej. Chile Habanero, etc.,), introducción de especies de abejas no nativas (no *Melipona beecheii*, ej .*Apis Mellifera* ) o bien de tipo ambiental, aparición de plagas, pérdida de cobertura vegetal (por deforestación). 
     
-    En este punto el marco teórico puede incluir corrientes como servicios ecosisteicos. En general el marco teórico esta en función al objetivo de tu tesis. 
+    En este punto el marco teórico puede incluir corrientes como servicios ecosistemicos. En general el marco teórico esta en función al objetivo de tu tesis. 
 
     
 
