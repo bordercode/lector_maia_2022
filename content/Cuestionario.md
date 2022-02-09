@@ -41,11 +41,19 @@ weight: 20
 
 **José Luis**
 
-#### Tareas necesarias: 
+## Tareas necesarias: 
 
-a) Es necesario realizar la cartografía de la zona a estudiar (Area de **Balaan Kaax y Calakmul** ) 
+### Cartografia y plot
 
-b) Contar con las series temporales de la variables climáticas de interés en el periodo a estudiar para verificar la existencia de "variaciones". 
+* [X] Es necesario realizar la cartografía de la zona a estudiar (Area de **Balaan Kaax y Calakmul** ) 
+
+* [X] Contar con las series temporales de la variables climáticas de interés en el periodo a estudiar para verificar la existencia de "variaciones". 
+
+* [ ] Graficar comportamiento de variables climáticas. 
+
+* [ ] Descargar imagenes de satelite de la zona de estudio y representar composición de bandas multiespectrales, para detectar cambios en cobertura vegetal y atributos del terreno. 
+
+
 
 
 **Conceptuales:**
@@ -53,7 +61,7 @@ b) Contar con las series temporales de la variables climáticas de interés en e
 - ¿Qué factores afectan la producción de miel? Tanto en terminos generales como en la zona particular? Revisión de literatura: **RL**
 
 
-**Importante** considerar que las zonas de estudio seleccionadas para comparación pueden estar adscritas a distintos regímenes jurídicos ambientales. Ej. Bala'an Ka'ax, estáregistrada como una area de protección de flora y fauna, este estatus tiene implicaciones sobre la actividad antropogénica permitida en la zona.
+**Importante** considerar que las zonas de estudio seleccionadas para comparación pueden estar adscritas a distintos regímenes jurídicos ambientales. Ej. Bala'an Ka'ax, está registrada como una area de protección de flora y fauna, este estatus tiene implicaciones sobre la actividad antropogénica permitida en la zona.
 
 Es sitio RAMSAR. Sitio no. 1332. Designado en 2004. Superficie: 
 131,610 ha.
@@ -70,7 +78,7 @@ Esta particularidad generaría condiciones ambientales distintas que influyen en
 
 - ¿Como defines variaciones climáticas en el contexto de tu tesis? 
 
-- ¿Existe algún sustento teórico o evidencia empírica previa que documente un vínculo entre las variaciones climáticas y la producción de miel? **RL**
+- ¿Existe algún sustento teórico o evidencia empírica previa que documente un vínculo entre las variaciones climáticas y la producción de miel? **RL** Si es así que periodo de tiempo es requerido para el análisis. 
 
 - ¿Se observan variaciones climáticas en la ubicación de las dos areas de estudio? Análisis de datos: **AD** y **TC**
 
@@ -80,12 +88,12 @@ Para este punto, el trabajo de campo resulta útil, por que nos permitiria  cono
 - ¿Es posible que factores **no clmáticos**, (pero si ambientales), tengan una importancia relativa mayor para explicar el "modo de producción de miel"?
 
 
-- ¿Como defines el "modo de producción de miel"?  Te interesa estudiar los volumenes, las diferencias de volumnes de producción entre productores por especie (eg. Melipona vs. )
+- ¿Como defines el "modo de producción de miel"?  Te interesa estudiar los volumenes, las diferencias de volumnes de producción entre productores por especie (eg. Melipona beecheii vs. Apis Mellifera)
 
 Indicas como parte de la justificaión de la tesis un interés por el cuidado del ecosistema: *"Se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema"*[^1]
 
 [^1]: Sobre la importancia de la adopción de estrategias de adaptación al cambio climático. ¿Cómo se expresa el cambio climático en la zona, o que factores se identifican como riesgo al cambio climático en la zona de estudio?  
-  A considerar: ¿El papel de la pérdida de flora en la región de estudio tienen en tanto impacta el insumo fundamental para la producción de miel. 
+  A considerar: El papel que  la pérdida de flora en la región de estudio tienen en tanto impacta el insumo fundamental para la producción de miel. 
   La idea principal en este enfoque es que las abejas funcionan en un ciclo, que por un lado permite la **actividad apícola**, esta es solo una parte del ciclo. Y tiene implicaciones para del **"Desarrollo comunitario"**. Este as´pecto nos remite a consideraciones teóricas especificas de índole social como los aspectos en la esfera economica (ej. empleo, pobreza,etc, ), de carácter cultural (las formas ancestrales de producción de miel, la importancia en la cosmovision de los Mayas, -area más de corte antropológica), pero por el otro son agentes fundamentales para el equilibrio del ecosistema. La pérdida de flora impacta la reproducción de las abejas y este fenómeno a su vez, representa un factor adicional que avanza el desquilibrio del ecosistema. 
 Si el enfasis de tu trabajo es en los factores ambientales,  sería importante determinar las acciones que estan afectando a la reproducción de la abejas. Estas pueden clasificarse por su origen en: antropogénicas: ej. la expansión de la frontera agricola, uso de semillas transgénicas, prácticas de monocultivo (soya), cambio en los patrones de cultivo de especies tradicionales (maíz, criollo o frijo por cultivos comperciales, ej. Chile habanero, etc.,), introducción de especies de abejas no nativas (no meliponas) o bien de tipo ambiental, aparición de plagas, etc. pérdida de cobertura vegetal (por deforestación). 
 Desde el punto de vista teórico-metodológico es importante tener en mente **las escalas de análisis** en este sentido el **"cambio climatico"** es un fenómeno estructural, de largo plazo. Si se busca comparar dos areas adyacentes en un periodo de una década, es necesario tener evidencia solida de posibles variaciones espacio termporales. 
