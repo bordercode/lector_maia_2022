@@ -134,6 +134,11 @@ Lo anterior, con el fin de contribuir a un análisis de las variaciones climáti
 
 # Planteamiento del problema 
 
+La apicultura es considerada por la Comisión nacional de áreas naturales protegidas (CONANP) como una actividad prioritaria y se incorpora dentro de los medios de vida las poblaciones que habitan las áreas naturales de Balaam Kaax y Calakmul; ya que esta actividad brinda servicios ecosistémicos de suma relevancia como la polinización y la conservación de los bosques de la región. 
+De igual manera fortalece el desarrollo comunitario considerando a esta actividad como un aliado importante para la generación de ingresos. Sin embargo, esta actividad se ve afectada debido a las variaciones climáticas, deforestación, la extensión de los monocultivos, la urbanización, entre otros.
+     Considerando lo anterior esto ha provocando que el sector apícola en las áreas naturales protegidas, presente afectaciones negativas en la producción de miel y genere una disminución de ingresos en los grupos de apicultores de las zonas del ejido Nuevo becal, Calakmul, Campeche y Ejido Sabana San Francisco, José María Morelos, Quintana Roo.
+     De la problemática anteriormente planteada se establecen los siguientes objetivos
+
 
 ## Plots {#section-1}
 
