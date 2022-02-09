@@ -27,6 +27,7 @@ En México, la apicultura es una de las actividades de mayor relevancia por el i
     Argumento de interés para la definición de marco teórico. Por ejemplo, se tiene  toda una corriente teorica sobre *Social Justice.*   No obstante si el interés teórico de tu trabajo es de corte amnbiental, ej. enfatizar el vínculo de esta actividad con el equilibrio del ecosistema.  Es importante plantear ese argumento como idea principal en la introducción.  Por el contrario, si tu interés es más de corte social, entoces considerar primero el desarrollo comunitario es adecuado. 
 
 Por ello, se realizan acciones para concientizar a la población sobre **la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema**[^2] :+1: para fortalecer a la actividad apícola (Rural, 2020).
+[Producción miel](https://atlasnacionaldelasabejasmx.github.io/atlas/cap5.html)
 
 [^2]:Indicas como parte de la justificaión de la tesis un interés por el cuidado del ecosistema: *"Se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema"*. 
 
