@@ -85,8 +85,15 @@ La importancia económica de la apicultura está más que sustentada en un entor
 
     
 
-lo que representa un riesgo en la disponibilidad de alimento. Además, la mayoría de los cultivos podrían experimentar pérdidas productivas debido a las limitaciones para la polinización de los cultivos debido al uso excesivo de los pesticidas condicionando esta actividad. (Gallardo-López, Pérez, Landeros, & Sol, 2021)
+lo que representa un riesgo en la disponibilidad de alimento. Además, la mayoría de los cultivos podrían experimentar pérdidas productivas debido a las limitaciones para la polinización de los cultivos **debido al uso excesivo de los pesticidas**:heavy_check_mark: [^7] condicionando esta actividad. (Gallardo-López, Pérez, Landeros, & Sol, 2021)
+
+[^7]: 
       
+    Este es un argumento sólido  que vincula la actividad poductiva de miel con los cambios ambientales en la zona de estudio, ej la actividad agricola comercial monocultivo, intensiva en uso de recursos, basada en la aplicación de herbicidas, pesticidas y semillas modificadas genéticamente.
+
+    Este argumento puede explorarse, en su caso medirse y potencialmente modelar los volumnes de producción de miel de la zona en relación con los cambios en la cobertura vegetal de la región. 
+
+
 Otros beneficios asociados a las abejas es que la polinización se considera como uno de los servicios ecosistémicos que mayores ganancias genera a nivel social y ecológico, pues contribuye a la conservación de la flora, al mantenimiento de la estructura y complejidad de hábitats, y al mejoramiento de la calidad y cantidad de los cultivos; el control biológico y la generación de empleo a través de la apicultura. (Camacho, 2017)
        
 En términos de producción total, la actividad apícola en México ha tenido una evolución  irregular, con una tendencia a la baja, debido a diferentes factores que incluyen lo mismo condiciones sociales (pobreza, desigualdad, conflictos originados por el cambio en el uso del suelo), que aspectos técnicos (falta de capacitación, baja productividad), factores económicos (acceso a mercados con estándares más exigentes, sistemas de comercialización y competitividad) y elementos ambientales (presencia de ácaros, deforestación, efectos del cambio climático). Todos estos factores han disminuido las consecuencias positivas en términos monetarios y de bienestar a las comunidades que incorporan a la apicultura dentro de sus actividades económicas.  (Becerrill, 2020)
