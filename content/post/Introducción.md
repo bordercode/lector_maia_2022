@@ -29,7 +29,11 @@ Por ello, se realizan acciones para concientizar a la población sobre **la impo
 [^2]:Indicas como parte de la justificaión de la tesis un interés por el cuidado del ecosistema: *"Se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema"*.
 
 
-      Sobre la importancia de la adopción de estrategias de adaptación al cambio climático. ¿Cómo se expresa el cambio climático en la zona, o que factores    se   identifican como riesgo al cambio climático en la zona de estudio?  
+      ¿Qué amenazas se identifican por lso pobladores para la preservación del ecosistema y en particular de la flora en la que habitan las abejas en el ciclo de polinización?
+      
+      Sobre la importancia de la adopción de estrategias de adaptación al cambio climático. 
+      ¿Cómo se expresa el cambio climático en la zona? 
+      ¿Qué riesgos perciben los productores frente al cambio climático en la zona de estudio?  
       
 
 Se conoce como apicultura a la actividad agropecuaria, que es principalmente la práctica dedicada a la cría y explotación racional de las abejas. Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).
