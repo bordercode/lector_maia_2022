@@ -24,11 +24,11 @@ En México, la apicultura es una de las actividades de mayor relevancia por el i
 
 [^1]:       
 
-    Argumento de interés para la definición de marco teórico. Por ejemplo, se tiene  toda una corriente teorica sobre *Social Justice.*  
+    Argumento de interés para la definición de marco teórico. Por ejemplo, se tiene  toda una corriente teorica sobre *Social Justice.*   No obstante si el interés teórico de tu trabajo es de corte amnbiental, ej. enfatizar el vínculo de esta actividad con el equilibrio del ecosistema.  Es importante plantear ese argumento como idea principal en la introducción.  Por el contrario, si tu interés es más de corte social, entoces considerar primero el desarrollo comunitario es adecuado. 
 
 Por ello, se realizan acciones para concientizar a la población sobre **la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema**[^2] :+1: para fortalecer a la actividad apícola (Rural, 2020).
 
-[^2]:Indicas como parte de la justificaión de la tesis un interés por el cuidado del ecosistema: *"Se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema"*.
+[^2]:Indicas como parte de la justificaión de la tesis un interés por el cuidado del ecosistema: *"Se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema"*. 
 
 
       ¿Qué amenazas identifican los pobladores para la preservación del ecosistema y en particular de la flora de la que dependen las abejas para el ciclo de polinización?
@@ -38,30 +38,31 @@ Por ello, se realizan acciones para concientizar a la población sobre **la impo
       ¿Qué riesgos perciben los productores frente al cambio climático en la zona de estudio?  
       
 
-Se conoce como apicultura a la actividad agropecuaria, que es principalmente la práctica dedicada a la cría y explotación racional de las abejas.[^3]
+Se conoce como apicultura a la actividad agropecuaria, que es principalmente la práctica dedicada a la cría y explotación racional de las abejas. :heavy_check_mark:[^3]
 
 [^3]:
 
     ¿Existen estadísticas de producción de miel en el periodo propuesto para el estudio?
 
-Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).[^4] :heavy_exclamation_mark:  
+Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).[Ver Plots](#section-1) [^4] :heavy_exclamation_mark:  
 [^4]: 
-      
-      Revizando la fuente que citas, me parece que Gallardo, et al. se refieren a variaciones clímaticas inesperadas concretas (de corto plazo) que provocan el retraso en la temporada de floración  como heladas inesperadas, Huracanes, etc.,
+
+      Revizando la fuente que citas, me parece que Gallardo, et al. se refieren a variaciones clímaticas inesperadas concretas (de corto plazo) que provocan el retraso en la temporada de floración  como heladas inesperadas, Huracanes, etc., Este comportamiento climatico es inherente a las actividades agricolas, es decir tenemos variaciones que fomran parte del ciclo climático, estas oscilaciones afentan por su puesto la producción: Este aspecto conceptual es una cuestión de escala en el análisis. El punto es tener clara la diferencia entre los escenarios que representa el cambio climatio y las oscilaciones climaticas inherentes a los ciclos productivos. 
       
 
       
-      Desde el punto de vista teórico-metodológico es importante tener en mente **las escalas de análisis** en este sentido el **"cambio climatico"** es un fenómeno estructural, de largo plazo. Si se busca comparar dos areas adyacentes en un periodo de una década, es necesario tener evidencia sólida de posibles variaciones espacio termporales.
+      Desde el punto de vista teórico-metodológico es importante tener en mente **las escalas de análisis** en este sentido el **"cambio climatico"** es un fenómeno estructural, de largo plazo. Si se busca comparar dos areas adyacentes en un periodo de una década, es necesario tener evidencia sólida de posibles variaciones espacio-temporales.
 
       El estudio de Gallardo et al. presenta evidencia de que no necesariamente la percepción de los apicultores sobre el cambio climatico es consistente con una relación inversa entre eventos extremos y niveles de producción. Por ejemplo, cuando se les preguntó: *"Do you remember a particular year in which the production of honey has  been low or bad?”* 35.2 % of the beekeepers perceived 2010 to have been such a year, due  to the presence of a hurricane. Although when reviewing the state's production volume  records, 2005 was found to be the year with the lowest production, while only 1.4 % of beekeepers remembered that year as, "a bad year in bee production".
             
 No obstante, los cambios actuales en el clima observados en **los escenarios que propone el Grupo intergubernamental de cambio climático (IPCC), podrían impactar la apicultura al acrecentar el riesgo de la actividad** :question: [^5]
 
-[Ver Plots](#section-1)
+
+[IPCC report Climate Change and Land](https://www.ipcc.ch/srccl/)
 
 [^5]: 
 
-    ¿Cuales son los escenarios que propone el (IPCC)?
+    ¿Cuales son los escenarios que propone el (IPCC)?[@MARTIN2020197]
     
     ¿El periodo de tiempo propuesto para la tesis es consistente con estos escenarios? Es decir, podemos **medir** las variables implicitas en estos escenarios en el lapso de tiempo de una decada?
     

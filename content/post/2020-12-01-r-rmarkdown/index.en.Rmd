@@ -1,37 +1,46 @@
 ---
-title: "Hello R Markdown"
+title: "Referencias marco teórico"
 author: "Frida Gomam"
 date: 2020-12-01T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+categories: ["Tesis"]
+tags: ["Documentación", "Marco teórico", "Metodología"]
+bibliography: citations.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown
+# Documentación 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Comentarios generales sobre las perspectiva conceptual de la investigación: 
 
-You can embed an R code chunk like this:
+Se tienen dos vertientes generales: 
 
-```{r cars}
-summary(cars)
-fit <- lm(dist ~ speed, data = cars)
-fit
-```
++ Desarrollo Comunitario
++ Cambio climático y escenarios de adaptación y mitigación. 
 
-# Including Plots
 
-You can also embed plots. See Figure \@ref(fig:pie) for example:
+La primera de corte social, la segunda con énfasis en la perspectiva ambiental. 
 
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
-par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
-  col = c('#0292D8', '#F7EA39', '#C4B632'),
-  init.angle = -50, border = NA
-)
-```
+Comencemos con la perspectiva de corte ambiental: 
+
+Marco teórico metodológico derivado de las recomendaciones del  [IPCC](https://www.ipcc.ch/srccl/chapter/summary-for-policymakers/)
+
+### Degradacción de suelos
+
+
+Una de las ideas conceptuales derivada de los escenarios que planea el **IPCC** es el concepto de **degradación del suelo**  expresado como una 
+reducción de largo plazo en la **Productividad Biológica**, **integridad ecológica**. 
+
+En términos metodológicos esta vertiente se asocia a conceptos concretos que requieren de herramientas metodológicas bien definidas que nos permiten mediciones particulares.[@MARTIN2020197]
+
+
+
+
+
+
+
+
+
+# References
