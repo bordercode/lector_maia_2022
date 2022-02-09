@@ -29,7 +29,7 @@ Por ello, se realizan acciones para concientizar a la población sobre **la impo
 [^2]:Indicas como parte de la justificaión de la tesis un interés por el cuidado del ecosistema: *"Se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema"*.
 
 
-      ¿Qué amenazas se identifican por lso pobladores para la preservación del ecosistema y en particular de la flora en la que habitan las abejas en el ciclo de polinización?
+      ¿Qué amenazas identifican los pobladores para la preservación del ecosistema y en particular de la flora de la que dependen las abejas para el ciclo de polinización?
       
       Sobre la importancia de la adopción de estrategias de adaptación al cambio climático. 
       ¿Cómo se expresa el cambio climático en la zona? 
@@ -42,8 +42,7 @@ Se conoce como apicultura a la actividad agropecuaria, que es principalmente la 
 
     ¿Existen estadísticas de producción de miel en el periodo propuesto para el estudio?
 
-Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).[^4]
-
+Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).[^4] :heavy_exclamation_mark:  
 [^4]: 
       
       Revizando la fuente que citas, me parece que Gallardo, et al. se refieren a variaciones clímaticas inesperadas concretas (de corto plazo) que provocan el retraso en la temporada de floración  como heladas inesperadas, Huracanes, etc.,
@@ -52,7 +51,7 @@ Sin embargo, se considera como otra actividad rural de temporal, ya que esta dep
       
       Desde el punto de vista teórico-metodológico es importante tener en mente **las escalas de análisis** en este sentido el **"cambio climatico"** es un fenómeno estructural, de largo plazo. Si se busca comparar dos areas adyacentes en un periodo de una década, es necesario tener evidencia sólida de posibles variaciones espacio termporales.
 
-            El estudio de Gallardo et al. presenta evidencia de que no necesariamente la percepción de los apicultores sobre el cambio climatico es consistente con una relación inversa entre eventos extremos y niveles de producción. Por ejemplo, cuando se les preguntó: *"Do you remember a particular year in which the production of honey has  been low or bad?”* 35.2 % of the beekeepers perceived 2010 to have been such a year, due  to the presence of a hurricane. Although when reviewing the state's production volume  records, 2005 was found to be the year with the lowest production, while only 1.4 % of beekeepers remembered that year as, "a bad year in bee production".
+      El estudio de Gallardo et al. presenta evidencia de que no necesariamente la percepción de los apicultores sobre el cambio climatico es consistente con una relación inversa entre eventos extremos y niveles de producción. Por ejemplo, cuando se les preguntó: *"Do you remember a particular year in which the production of honey has  been low or bad?”* 35.2 % of the beekeepers perceived 2010 to have been such a year, due  to the presence of a hurricane. Although when reviewing the state's production volume  records, 2005 was found to be the year with the lowest production, while only 1.4 % of beekeepers remembered that year as, "a bad year in bee production".
             
 No obstante, los cambios actuales en el clima observados en los escenarios que propone el Grupo intergubernamental de cambio climático (IPCC), podrían impactar la apicultura al acrecentar el riesgo de la actividad con base en dos sentidos: directo, considerando la respuesta intra e inter específica de la flora melífera y las abejas, e indirecto, enfocado a las afectaciones socioeconómicas de los apicultores por los riesgos de producción y la incertidumbre que conlleva, estos escenarios.  (Gallardo-López, Pérez, Landeros, & Sol, 2021).
       
