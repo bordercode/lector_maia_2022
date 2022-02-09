@@ -36,8 +36,24 @@ Por ello, se realizan acciones para concientizar a la población sobre **la impo
       ¿Qué riesgos perciben los productores frente al cambio climático en la zona de estudio?  
       
 
-Se conoce como apicultura a la actividad agropecuaria, que es principalmente la práctica dedicada a la cría y explotación racional de las abejas. Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).
+Se conoce como apicultura a la actividad agropecuaria, que es principalmente la práctica dedicada a la cría y explotación racional de las abejas.[^3]
+
+[^3]:
+
+    ¿Existen estadísticas de producción de miel en el periodo propuesto para el estudio?
+
+Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).[^4]
+
+[^4]: 
       
+      Revizando la fuente que citas, me parece que Gallardo, et al. se refieren a variaciones clímaticas inesperadas concretas (de corto plazo) que provocan el retraso en la temporada de floración  como heladas inesperadas, Huracanes, etc.,
+      
+
+      
+      Desde el punto de vista teórico-metodológico es importante tener en mente **las escalas de análisis** en este sentido el **"cambio climatico"** es un fenómeno estructural, de largo plazo. Si se busca comparar dos areas adyacentes en un periodo de una década, es necesario tener evidencia sólida de posibles variaciones espacio termporales.
+
+            El estudio de Gallardo et al. presenta evidencia de que no necesariamente la percepción de los apicultores sobre el cambio climatico es consistente con una relación inversa entre eventos extremos y niveles de producción. Por ejemplo, cuando se les preguntó: *"Do you remember a particular year in which the production of honey has  been low or bad?”* 35.2 % of the beekeepers perceived 2010 to have been such a year, due  to the presence of a hurricane. Although when reviewing the state's production volume  records, 2005 was found to be the year with the lowest production, while only 1.4 % of beekeepers remembered that year as, "a bad year in bee production".
+            
 No obstante, los cambios actuales en el clima observados en los escenarios que propone el Grupo intergubernamental de cambio climático (IPCC), podrían impactar la apicultura al acrecentar el riesgo de la actividad con base en dos sentidos: directo, considerando la respuesta intra e inter específica de la flora melífera y las abejas, e indirecto, enfocado a las afectaciones socioeconómicas de los apicultores por los riesgos de producción y la incertidumbre que conlleva, estos escenarios.  (Gallardo-López, Pérez, Landeros, & Sol, 2021).
       
 La importancia económica de la apicultura está más que sustentada en un entorno de desarrollo comunitario, no obstante, su valor va más allá de los términos monetarios al desempeñar un papel fundamental en la regulación del medio ambiente gracias a su función de promoción de agentes polinizadores, así como también, en tanto componente cultural que forma parte de las estrategias de diversificación de los medios de vida sostenibles (MVS) en las comunidades rurales. (Becerril & Hernández, 2020). 
@@ -58,8 +74,7 @@ La importancia económica de la apicultura está más que sustentada en un entor
     
     En este punto el marco teórico puede incluir corrientes como servicios ecosisteicos. En general el marco teórico esta en función al objetivo de tu tesis. 
 
-    Desde el punto de vista teórico-metodológico es importante tener en mente **las escalas de análisis** en este sentido el **"cambio climatico"** es un fenómeno estructural, de largo plazo. Si se busca comparar dos areas adyacentes en un periodo de una década, es necesario tener evidencia sólida de posibles variaciones espacio termporales.
-
+    
 
 lo que representa un riesgo en la disponibilidad de alimento. Además, la mayoría de los cultivos podrían experimentar pérdidas productivas debido a las limitaciones para la polinización de los cultivos debido al uso excesivo de los pesticidas condicionando esta actividad. (Gallardo-López, Pérez, Landeros, & Sol, 2021)
       
