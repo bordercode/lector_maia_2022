@@ -23,3 +23,8 @@ weight: 50
 [Calakmul ](http://www.conabio.gob.mx/conocimiento/regionalizacion/doctos/rhp_096.html)
 
 [Metadatos cartografía](http://www.conabio.gob.mx/informacion/metadata/gis/pobcalgw.xml?_httpcache=yes&_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
+
+[Estudio: Tasa de transformación del hábitat](https://simec.conanp.gob.mx/TTH/Calakmul/Calakmul_TTH_2000_2010.pdf)
+
+
+[Descirpción importancia de Calakmul](https://iefectividad.conanp.gob.mx/i-efectividad/PYyCM/RB%20Calakmul/1.%20%C3%8DNDICE%20DEL%20COMPONENTE%20DE%20CONTEXTO%20Y%20PLANEACI%C3%93N_/2%E2%80%A2%20Poligonal%20y%20L%C3%ADmites_/2.PyL-Investigaci%C3%B3n/La%20Gran%20Regi%C3%B3n%20de%20Calakmul.pdf)
