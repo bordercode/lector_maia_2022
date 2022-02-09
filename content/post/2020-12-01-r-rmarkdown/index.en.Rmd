@@ -1,7 +1,7 @@
 ---
 title: "Referencias marco teórico"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
+author: "JLMR"
+date: 2022-01-12T21:13:14-05:00
 categories: ["Tesis"]
 tags: ["Documentación", "Marco teórico", "Metodología"]
 bibliography: citations.bib
@@ -30,13 +30,20 @@ Marco teórico metodológico derivado de las recomendaciones del  [IPCC](https:/
 ### Degradacción de suelos
 
 
-Una de las ideas conceptuales derivada de los escenarios que planea el **IPCC** es el concepto de **degradación del suelo**  expresado como una 
+Uno de los marcos  conceptuales derivados de los escenarios que planea el **IPCC** es el concepto de **degradación del suelo**  expresado como una 
 reducción de largo plazo en la **Productividad Biológica**, **integridad ecológica**. 
 
 En términos metodológicos esta vertiente se asocia a conceptos concretos que requieren de herramientas metodológicas bien definidas que nos permiten mediciones particulares.[@MARTIN2020197]
 
+Definición: **ecological integrity:**   *Ecological integrity is a term often used to describe the state of ecosystems subjected to anthropogenic pressures.*
 
 
+Cita al margen.  Del movimiento  ecologista de los 1949: 
+
+*"A thing is right when it tends to preserve the integrity, stability, and 
+beauty of the biotic community.  It is wrong when it tends otherwise” (Leopold, 1949)"*
+
+Para medir indicadores de integridad una metodología común es el contraste de las variables de interés entre dos momentos. ej. *Deviation of an indicator variable from a reference relationship is a measure of integrity.*
 
 
 

@@ -44,7 +44,7 @@ Se conoce como apicultura a la actividad agropecuaria, que es principalmente la 
 
     ¿Existen estadísticas de producción de miel en el periodo propuesto para el estudio?
 
-Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).[Ver Plots](#section-1) [^4] :heavy_exclamation_mark:  
+Sin embargo, se considera como otra actividad rural de temporal, ya que esta depende de un intervalo de condiciones climáticas sin variaciones para su desarrollo óptimo (Gallardo-López, Pérez, Landeros, & Sol, 2021).[^4] :heavy_exclamation_mark:  
 [^4]: 
 
       Revizando la fuente que citas, me parece que Gallardo, et al. se refieren a variaciones clímaticas inesperadas concretas (de corto plazo) que provocan el retraso en la temporada de floración  como heladas inesperadas, Huracanes, etc., Este comportamiento climatico es inherente a las actividades agricolas, es decir tenemos variaciones que fomran parte del ciclo climático, estas oscilaciones afentan por su puesto la producción: Este aspecto conceptual es una cuestión de escala en el análisis. El punto es tener clara la diferencia entre los escenarios que representa el cambio climatio y las oscilaciones climaticas inherentes a los ciclos productivos. 
@@ -55,7 +55,7 @@ Sin embargo, se considera como otra actividad rural de temporal, ya que esta dep
 
       El estudio de Gallardo et al. presenta evidencia de que no necesariamente la percepción de los apicultores sobre el cambio climatico es consistente con una relación inversa entre eventos extremos y niveles de producción. Por ejemplo, cuando se les preguntó: *"Do you remember a particular year in which the production of honey has  been low or bad?”* 35.2 % of the beekeepers perceived 2010 to have been such a year, due  to the presence of a hurricane. Although when reviewing the state's production volume  records, 2005 was found to be the year with the lowest production, while only 1.4 % of beekeepers remembered that year as, "a bad year in bee production".
             
-No obstante, los cambios actuales en el clima observados en **los escenarios que propone el Grupo intergubernamental de cambio climático (IPCC), podrían impactar la apicultura al acrecentar el riesgo de la actividad** :question: [^5]
+No obstante, los cambios actuales en el clima observados en **los escenarios que propone el Grupo intergubernamental de cambio climático (IPCC), podrían impactar la apicultura al acrecentar el riesgo de la actividad** :question: [^5] con base en dos sentidos: directo, considerando la respuesta intra e inter específica de la flora melífera y las abejas, e indirecto, enfocado a las afectaciones socioeconómicas de los apicultores por los riesgos de producción y la incertidumbre que conlleva, estos escenarios.  (Gallardo-López, Pérez, Landeros, & Sol, 2021).
 
 
 [IPCC report Climate Change and Land](https://www.ipcc.ch/srccl/)
@@ -69,15 +69,19 @@ No obstante, los cambios actuales en el clima observados en **los escenarios que
      Una opción es indagar la percepción de los propios productores, sobre el impacto potencial de los escenarios que propone el IPCC.  Aquí los conceptos de mitigación y adaptación son claves como estrategias derivadas del trabajo de tesis.
     
 
-con base en dos sentidos: directo, considerando la respuesta intra e inter específica de la flora melífera y las abejas, e indirecto, enfocado a las afectaciones socioeconómicas de los apicultores por los riesgos de producción y la incertidumbre que conlleva, estos escenarios.  (Gallardo-López, Pérez, Landeros, & Sol, 2021).
+
       
       
-La importancia económica de la apicultura está más que sustentada en un entorno de desarrollo comunitario, no obstante, su valor va más allá de los términos monetarios al desempeñar un papel fundamental en la regulación del medio ambiente gracias a su función de promoción de agentes polinizadores, así como también, en tanto componente cultural que forma parte de las estrategias de diversificación de los medios de vida sostenibles (MVS) en las comunidades rurales. (Becerril & Hernández, 2020). 
+La importancia económica de la apicultura está más que sustentada en un entorno de desarrollo comunitario, no obstante, su valor va más allá de los términos monetarios al desempeñar un papel fundamental en la **regulación del medio ambiente** :heavy_check_mark: gracias a su función de promoción de agentes polinizadores, así como también, **en tanto componente cultural que forma parte de las estrategias de diversificación de los medios de vida sostenibles (MVS) en las comunidades rurales**. (Becerril & Hernández, 2020).[^6]
+
+[^6]: 
+
+    Una vertiente de corte social interesante, en el area sociológica. Si el enfasis de la investigación es de corte ambiental, es importante priorizar la argumentación conceptual en los rasgos ambientales, esto nos dara paso a presentar las herramientas teórico-metodologicas adecuadas. 
       
-**Según Castellanos la especie Apis melífera, representa el valor económico más importante de la polinización de cultivos en todo el mundo. Los rendimientos de algunas frutas, semillas y frutos secos, disminuye por más del 90% sin este polinizador,** [^6]
+**Según Castellanos la especie Apis melífera, representa el valor económico más importante de la polinización de cultivos en todo el mundo. Los rendimientos de algunas frutas, semillas y frutos secos, disminuye por más del 90% sin este polinizador,** [^7] lo que representa un riesgo en la disponibilidad de alimento. Además, la mayoría de los cultivos podrían experimentar pérdidas productivas debido a las limitaciones para la polinización de los cultivos **debido al uso excesivo de los pesticidas**:heavy_check_mark: [^8] condicionando esta actividad. (Gallardo-López, Pérez, Landeros, & Sol, 2021)
 
 
-[^6]:
+[^7]:
 
       Comprender los factores ambientales que afectan el habitat de la abeja es un objetivo principal. Documentar (medir) las amenazas sería una aportación  relevante para la continuidad de la actividad de estas comunidades en la región. 
 
@@ -92,19 +96,23 @@ La importancia económica de la apicultura está más que sustentada en un entor
 
     
 
-lo que representa un riesgo en la disponibilidad de alimento. Además, la mayoría de los cultivos podrían experimentar pérdidas productivas debido a las limitaciones para la polinización de los cultivos **debido al uso excesivo de los pesticidas**:heavy_check_mark: [^7] condicionando esta actividad. (Gallardo-López, Pérez, Landeros, & Sol, 2021)
 
-[^7]: 
+
+[^8]: 
       
     Este es un argumento sólido  que vincula la actividad poductiva de miel con los cambios ambientales en la zona de estudio, ej la actividad agricola comercial monocultivo, intensiva en uso de recursos, basada en la aplicación de herbicidas, pesticidas y semillas modificadas genéticamente.
 
     Este argumento puede explorarse, en su caso medirse y potencialmente modelar los volumnes de producción de miel de la zona en relación con los cambios en la cobertura vegetal de la región. 
 
 
-Otros beneficios asociados a las abejas es que la polinización se considera como uno de los servicios ecosistémicos que mayores ganancias genera a nivel social y ecológico, pues contribuye a la conservación de la flora, al mantenimiento de la estructura y complejidad de hábitats, y al mejoramiento de la calidad y cantidad de los cultivos; el control biológico y la generación de empleo a través de la apicultura. (Camacho, 2017)
+Otros beneficios asociados a las abejas es que la polinización se considera como uno de los **servicios ecosistémicos** que mayores ganancias genera a nivel social y ecológico, pues contribuye a la conservación de la flora, al mantenimiento de la estructura y complejidad de hábitats, y al mejoramiento de la calidad y cantidad de los cultivos; el control biológico y la generación de empleo a través de la apicultura. (Camacho, 2017)
        
-En términos de producción total, la actividad apícola en México ha tenido una evolución  irregular, con una tendencia a la baja, debido a diferentes factores que incluyen lo mismo condiciones sociales (pobreza, desigualdad, conflictos originados por el cambio en el uso del suelo), que aspectos técnicos (falta de capacitación, baja productividad), factores económicos (acceso a mercados con estándares más exigentes, sistemas de comercialización y competitividad) y elementos ambientales (presencia de ácaros, deforestación, efectos del cambio climático). Todos estos factores han disminuido las consecuencias positivas en términos monetarios y de bienestar a las comunidades que incorporan a la apicultura dentro de sus actividades económicas.  (Becerrill, 2020)
-     Considerando lo anterior se afirma que los eventos meteorológicos como huracanes y las sequías son una constante de la variabilidad de las precipitaciones en la península de Yucatán y esto generar una tendencia a la baja a la población de abejas. De acuerdo con el índice de Severidad (IS) de áreas de México vulnerables a la sequía meteorológica, la península de Yucatán actualmente está catalogada como una de las cinco zonas del país con sequía severa (región noreste) y con sequía fuerte (zona sur). Quintana Roo y Campeche son de los estados más vulnerables a la sequía meteorológica donde más del 75% de su territorio se ve afectado (99.77 y 75.22%, respectivamente) y esta situación tiende a empeorar. (Márdero, y otros, 2012)
+En términos de producción total, la actividad apícola en México ha tenido una evolución  irregular, con una tendencia a la baja, debido a diferentes factores que incluyen lo mismo condiciones sociales (pobreza, desigualdad, conflictos originados por el cambio en el uso del suelo), que aspectos técnicos (falta de capacitación, baja productividad), factores económicos (acceso a mercados con estándares más exigentes, sistemas de comercialización y competitividad) y elementos ambientales (presencia de ácaros, deforestación, efectos del cambio climático). Todos estos factores han disminuido las consecuencias positivas en términos monetarios y de bienestar a las comunidades que incorporan a la apicultura dentro de sus actividades económicas.  (Becerrill, 2020).
+
+  Considerando lo anterior se afirma que los eventos meteorológicos como huracanes y las sequías **son una constante de la variabilidad de las precipitaciones en la península de Yucatán** :question: y esto generar una tendencia a la baja a la población de abejas. 
+  [Ver fig.1 en sección  Plots para marco conceptual general](#section-1)
+  
+  De acuerdo con el índice de Severidad (IS) de áreas de México vulnerables a la sequía meteorológica, la península de Yucatán actualmente está catalogada como una de las cinco zonas del país con sequía severa (región noreste) y con sequía fuerte (zona sur). Quintana Roo y Campeche son de los estados más vulnerables a la sequía meteorológica donde más del 75% de su territorio se ve afectado (99.77 y 75.22%, respectivamente) y esta situación tiende a empeorar. (Márdero, y otros, 2012)
       Es importante recalcar que la apicultura está siendo afectadas negativamente, no solo por estas variaciones climáticas sino también por diferentes las actividades humanas, ocasionando una disminución en sus poblaciones y afectaciones sobre la funcionalidad de los servicios ecosistémicos, los medios de vida sostenibles y el desarrollo comunitario.
 
 
@@ -167,7 +175,7 @@ New paragraph.
 
 ## Footnote
 
-This is a footnote[^1]
+This is a footnote[^z]
 
 A footnote on "label"[^label]
 
@@ -175,7 +183,7 @@ The footnote for definition[^!DEF]
 
 A footnote with link[^pa]
 
-[^1]: This is a footnote
+[^z]: This is a footnote
 [^label]: A footnote on "label"
 [^pa]: [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [^!DEF]: The footnote for definition
