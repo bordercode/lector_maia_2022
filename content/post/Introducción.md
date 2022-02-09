@@ -5,7 +5,7 @@ categories:
 - Justificación
 - Objetivos
 contentCopyright: MIT
-date: "2022-01-08T00:00:00+08:00"
+date: "2022-01-20T00:00:00+08:00"
 draft: false
 lastmod: "2018-07-10T00:00:00+08:00"
 mathjax: true
@@ -112,8 +112,19 @@ En términos de producción total, la actividad apícola en México ha tenido un
   Considerando lo anterior se afirma que los eventos meteorológicos como huracanes y las sequías **son una constante de la variabilidad de las precipitaciones en la península de Yucatán** :question: y esto generar una tendencia a la baja a la población de abejas. 
   [Ver fig.1 en sección  Plots para marco conceptual general](#section-1)
   
-  De acuerdo con el índice de Severidad (IS) de áreas de México vulnerables a la sequía meteorológica, la península de Yucatán actualmente está catalogada como una de las cinco zonas del país con sequía severa (región noreste) y con sequía fuerte (zona sur). Quintana Roo y Campeche son de los estados más vulnerables a la sequía meteorológica donde más del 75% de su territorio se ve afectado (99.77 y 75.22%, respectivamente) y esta situación tiende a empeorar. (Márdero, y otros, 2012)
-      Es importante recalcar que la apicultura está siendo afectadas negativamente, no solo por estas variaciones climáticas sino también por diferentes las actividades humanas, ocasionando una disminución en sus poblaciones y afectaciones sobre la funcionalidad de los servicios ecosistémicos, los medios de vida sostenibles y el desarrollo comunitario.
+  De acuerdo con el índice de Severidad (IS) de áreas de México vulnerables a la sequía meteorológica, la península de Yucatán actualmente está catalogada como una de las cinco zonas del país con sequía severa (región noreste) y con sequía fuerte (zona sur). Quintana Roo y Campeche son de los estados más vulnerables a la sequía meteorológica donde más del 75% de su territorio se ve afectado (99.77 y 75.22%, respectivamente) y esta situación tiende a empeorar. (Márdero, y otros, 2012). [^ak] :heavy_exclamation_mark:
+
+[^ak]: 
+
+    Este punto es muy importante. Revizando el trabajo de Márdero, se observa que los autores consideran un periodo de 54 años para su estudio. Esta periodicidad es necesaria.  Ya que las series temporales de estaciones meteorológicas de esta dimensión permiten aproximar el concepto de variaciones climáticas mediante la detección de anómalias.  Es importante tomar encuenta este particularidad para el diseño de la estrategia metodológica de la cual depende la selección del periodo de estudio de tu tesis.   
+  
+  
+  Es importante recalcar que la apicultura está siendo afectadas negativamente, no solo por estas variaciones climáticas sino también por diferentes las **actividades humanas** [^as], ocasionando una disminución en sus poblaciones y afectaciones sobre la funcionalidad de los servicios ecosistémicos, los medios de vida sostenibles y el desarrollo comunitario.
+
+[^as]: 
+
+    Es posible documentar las actividades humanas que contribuyen a los escenarios de cambio climatico identificados por el IPCC. Estas a su vez inciden en la integridad ecológica de la región. Este aspecto  sería una contribución directa de tu tesis y se puede validar a partir de herramientas de trabajo de campo cualitativas, como los cuestionarios  y mediante análisis de indicadores con base en series temporales, imagenes de satelite y la creación de índices para medir dimensiones de la variación en el equilibrio ecológico del área de estudio. 
+
 
 
 Lo cual nos lleva a preguntar lo siguente: 
@@ -121,6 +132,7 @@ Lo cual nos lleva a preguntar lo siguente:
 Lo anterior, con el fin de contribuir a un análisis de las variaciones climáticas en las que se desarrolla el proceso de producción y aportar elementos de interés para el fortalecimiento de los medios de vida de los productores apícolas, así como para el uso sostenible y la conservación de la biodiversidad y los servicios ecosistémicos asociados a la producción apícola.
 
 
+# Planteamiento del problema 
 
 
 ## Plots {#section-1}
