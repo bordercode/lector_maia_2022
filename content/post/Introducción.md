@@ -20,9 +20,11 @@ weight: 10
 En México, la apicultura es una de las actividades de mayor relevancia por el impacto que tiene en el **desarrollo comunitario.** :heavy_check_mark: [^1]
 
 
-[^1]:Argumento de interés para la definición de marco teórico. POr ejemplo, se tiene  toda una corriente teorica sobre *Social Jsutice.* 
+[^1]:       
 
-Por ello, se realizan acciones para concientizar a la población sobre **la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema**[^2] para fortalecer a la actividad apícola (Rural, 2020).
+    Argumento de interés para la definición de marco teórico. Por ejemplo, se tiene  toda una corriente teorica sobre *Social Jsutice.*  
+
+Por ello, se realizan acciones para concientizar a la población sobre **la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema**[^2] :+1: para fortalecer a la actividad apícola (Rural, 2020).
 
 [^2]:Indicas como parte de la justificaión de la tesis un interés por el cuidado del ecosistema: *"Se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema"*.
 
