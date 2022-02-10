@@ -1,0 +1,95 @@
+---
+title: "Plots"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+
+```{r}
+library(janitor)
+```
+
+getwd()
+list.files()
+
+```{r Temperaturas y  precipitaciones 1949-2018}
+
+e4037<-read.csv("C:/Users/josel/Desktop/on/web/lector_maia_2022/ema_climatologia.csv")
+
+glimpse(e4037)
+names(e4037)
+
+e4037<-clean_names(e4037)
+
+df<-e4037%>%mutate(max=as.numeric(as.character(tmax)),min=as.numeric(as.character(tmin)))
+df<-df%>%head(-1)
+
+df<-mutate(df, date=as.Date(fecha, "%d/%m/%Y"))%>%
+mutate(mes=as.integer(substr(date,6,7)),año=substr(date,1,4))
+
+glimpse(df)
+
+meses<-data.frame(Meses=c("Enero ",	"Febrero",	"Marzo",	"Abril",	"Mayo",	"Junio",	"Julio",	"Agosto",	"Septiembre",	"Octubre",	"Noviembre",	"Diciembre"),mes=seq(1, 12, by=1))
+
+temp<-select(df, año, mes,  min, max)
+temp<-left_join(meses,temp)
+
+
+prom_yr<-temp%>%na.omit()%>%
+  group_by(mes,año)%>%
+  summarise(max_med=mean(max), min_med=mean(min))
+
+promedio_arr<-arrange(prom_yr,año,mes)
+glimpse(promedio_arr)
+
+
+eneros<-filter(promedio_arr, mes==1)%>%
+  mutate(año=as.numeric(año))%>%ungroup()%>%
+  select(-mes)
+
+eneros_tidy<-eneros%>%
+  gather(type,temp,max_med:min_med)
+```
+
+# First plot, Mes de Enero comportamiento promedio anual para Tmax y Tmin  
+
+```{r}
+ggplot(eneros_tidy, aes(año, temp, col=type)) + 
+geom_line()  +
+geom_smooth()+
+  theme_light()+
+xlab("Año")+ylab("Temperatura (c°)")+
+   scale_color_discrete(labels=c("Tmax", "Tmin"))+
+  labs(colour="Temperatura")+ theme(legend.position="top")+
+scale_colour_brewer(palette="Set1")
+
+```
+
+```{r}
+# Fuente: CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
+
+```
+
+
+
+
+
+
+```
+```{r}
+file.path(getwd(), "")
+
+ggsave("C:/Users/josel/Desktop/on/web/lector_maia_2022/content/tmaxmin.jpg",width = 20, height = 14, units = "cm",dpi=300)
+
+
+
+```
+
+

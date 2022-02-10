@@ -141,6 +141,13 @@ De igual manera fortalece el desarrollo comunitario considerando a esta activida
      De la problemática anteriormente planteada se establecen los siguientes objetivos.
      
 
+## Objetivo General 
+
+Analizar las variaciones climáticas de sequía y precipitación en los últimos 10 años en las zonas de estudio para conocer si se presentan alteraciones en la producción apícola y los medios de vida sostenibles de los apicultores de la zona de estudio.:exclamation: [^x]  [Ver datos precipitación y temp](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt)
+[Ver fig.3 Comportamiento de temperatura 1949-2018](#section-1)
+[^x]: 
+
+    Es necesario revizar el objetivo. Por ejemplk el periodo de tiempo puede ser limitado para comprender el fenómeno que se propone (variaciones climaticas), ya que se trata de un fenómeno de largo plazo. Existen registros climatologicos de la zona de al menos 6 décadas, Esto permite investigar el comportamiento de las variables climáticas como temperatura, precipitación y evaporación.  **anómalias**.
 
 ## Figuras {#section-1}
 
