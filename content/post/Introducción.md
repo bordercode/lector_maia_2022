@@ -31,7 +31,6 @@ Por ello, se realizan acciones para concientizar a la población sobre **la impo
 
 [^2]:Indicas como parte de la justificaión de la tesis un interés por el cuidado del ecosistema: *"Se realizan acciones para concientizar a la población sobre la importante contribución de las abejas en la producción de alimentos y el cuidado del ecosistema"*. 
 
-
       ¿Qué amenazas identifican los pobladores para la preservación del ecosistema y en particular de la flora de la que dependen las abejas para el ciclo de polinización?
       
       Sobre la importancia de la adopción de estrategias de adaptación al cambio climático. 
