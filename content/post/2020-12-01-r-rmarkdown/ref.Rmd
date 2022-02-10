@@ -5,7 +5,7 @@ date: 2022-01-12T21:13:14-05:00
 categories: ["Tesis"]
 tags: ["Documentación", "Marco teórico", "Metodología"]
 bibliography: citations.bib
-link-citations:yes
+link-citations: yes
 ---
 
 ```{r setup, include=FALSE}
