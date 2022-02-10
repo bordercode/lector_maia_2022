@@ -41,19 +41,6 @@ weight: 20
 
 **José Luis**
 
-## Tareas necesarias: 
-
-### Cartografia y plot
-
-* [X] Es necesario realizar la cartografía de la zona a estudiar (Area de **Balaan Kaax y Calakmul** ) 
-
-* [X] Contar con las series temporales de la variables climáticas de interés en el periodo a estudiar para verificar la existencia de "variaciones". 
-
-* [ ] Graficar comportamiento de variables climáticas. 
-
-* [ ] Descargar imagenes de satelite de la zona de estudio y representar composición de bandas multiespectrales, para detectar cambios en cobertura vegetal y atributos del terreno. 
-
-
 
 
 **Conceptuales:**
