@@ -142,8 +142,16 @@ De igual manera fortalece el desarrollo comunitario considerando a esta activida
      
 
 
-## Plots {#section-1}
+## Figuras {#section-1}
 
-#### <center>P1. Marco conceptual general</center> 
+#### <center>Fig1. Marco conceptual general</center> 
 
 ![](/ipcc1.jpg)
+|:--:|
+| <b> Fuente: IPCC</b>|
+
+#### <center>Fig2. Proceso de conceptualización </center>
+
+![](/ipcc2.jpg)
+|:--:|
+| <b> Fuente: IPCC</b>|
