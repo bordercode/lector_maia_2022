@@ -142,7 +142,7 @@ ggplotly(box)
 
 Evolución de la precipitación promedio mensual 1949-2018
 
-```{r}
+```{r, fig.height = 7, fig.width = 8}
 
 e4037<-read.csv("C:/Users/josel/Desktop/on/web/lector_maia_2022/ema_climatologia.csv")
 ## to lower case var names.
