@@ -142,8 +142,7 @@ ggplotly(box)
 
 Evolución de la precipitación promedio mensual 1949-2018
 
-```{r, fig.height = 7, fig.width = 8}
-
+```{r, fig.height =6, fig.width = 8}
 e4037<-read.csv("C:/Users/josel/Desktop/on/web/lector_maia_2022/ema_climatologia.csv")
 ## to lower case var names.
 
@@ -177,15 +176,18 @@ meses<-mutate(meses,mes=as.factor(mes))
 lluvia2<-left_join(lluvia2, meses)%>%
   mutate(mes=as.numeric(mes), Meses=as.factor(Meses))
 
+
+
 a<-ggplot(lluvia2,  aes(x=reorder(Meses,mes), y=avg,group=1))+
-  geom_smooth()+
+    geom_smooth(color="steelblue4")+
   xlab("Mes")+
-  ylab("Precipitación 1949-2018 (mm)")+theme_light()+
+  ylab("Precipitación 1949-2018 (mm)")+
+  theme_light()+
 theme(axis.text.x = element_text(angle = 45, hjust = .8))+
   geom_vline(xintercept =8, linetype="dashed", 
-                color = "red", size=.8)
+                color = "red2", size=.8)
+   
 a
 
 ```
-
 
