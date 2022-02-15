@@ -7,21 +7,16 @@ tags: ["Mapas", "Figuras", "Tablas"]
 ---
 
 
-```{r setup, include=FALSE, warning=FALSE}
+```{r setup, include=FALSE, warning=FALSE, message = FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
-
-```{r, include=FALSE, warning=FALSE}
 suppressPackageStartupMessages(library(tidyverse))
+library(janitor)
+library(dygraphs)
+library(plotly)
 ```
 
 
 ```{r}
-library(janitor)
-library(dygraphs)
-```
-
-```{r, echo=FALSE, warning=FALSE}
 
 e4037<-read.csv("C:/Users/josel/Desktop/on/web/lector_maia_2022/ema_climatologia.csv")
 
@@ -144,5 +139,53 @@ ggplotly(box)
 ```
 **Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
 
+
+Evolución de la precipitación promedio mensual 1949-2018
+
+```{r}
+
+e4037<-read.csv("C:/Users/josel/Desktop/on/web/lector_maia_2022/ema_climatologia.csv")
+## to lower case var names.
+
+e4037<-clean_names(e4037)%>%na.omit()%>%
+  filter(precip!="Nulo")
+
+
+
+lluvia<-mutate(e4037, precip=as.numeric(precip), date=as.Date(fecha, "%d/%m/%Y"))%>%
+mutate(mes=as.integer(substr(date,6,7)),año=substr(date,1,4))%>%
+  select(precip,mes, año, date  )
+
+meses<-data.frame(Meses=c("Enero ",	"Febrero",	"Marzo",	"Abril",	"Mayo",	"Junio",	"Julio",	"Agosto",	"Septiembre",	"Octubre",	"Noviembre",	"Diciembre"),mes=seq(1, 12, by=1))
+
+rain<-left_join(meses,lluvia)%>%
+  mutate(mes=as.factor(mes), año=as.factor(año))
+
+
+incomplete<-data.frame(años=c("1949", "1982", "1974","1977"))
+
+
+lluvia_mes<-group_by(rain,  año, mes)%>%
+ summarize(total=sum (precip))%>%
+  ungroup()
+
+
+lluvia2<-group_by(lluvia_mes,mes)%>%
+  summarize(avg=mean(total))
+
+meses<-mutate(meses,mes=as.factor(mes))
+lluvia2<-left_join(lluvia2, meses)%>%
+  mutate(mes=as.numeric(mes), Meses=as.factor(Meses))
+
+a<-ggplot(lluvia2,  aes(x=reorder(Meses,mes), y=avg,group=1))+
+  geom_smooth()+
+  xlab("Mes")+
+  ylab("Precipitación 1949-2018 (mm)")+theme_light()+
+theme(axis.text.x = element_text(angle = 45, hjust = .8))+
+  geom_vline(xintercept =8, linetype="dashed", 
+                color = "red", size=.8)
+a
+
+```
 
 
