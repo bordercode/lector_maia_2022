@@ -54,23 +54,54 @@ eneros<-filter(promedio_arr, mes==1)%>%
 eneros_tidy<-eneros%>%
   gather(type,temp,Máxima:Mínima)
 
+
+## Marzo, mes de la floración?
+
+Marzo<-filter(promedio_arr, mes==3)%>%
+  mutate(año=as.numeric(año))%>%
+  ungroup()%>%
+  select(-mes)%>%
+  rename(Máxima=max_med,Mínima=min_med) 
+
+
+Marzo_tidy<-Marzo%>%
+  gather(type,temp,Máxima:Mínima)
+
 ```
 
 
 
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 7, fig.widt}
+```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 5, fig.widt=15}
 
-ggplot(eneros_tidy, aes(año, temp, col=type)) + 
+e<-ggplot(eneros_tidy, aes(año, temp, col=type)) + 
 geom_line()  +
-geom_smooth(size=1.2)+
+geom_smooth(linetype="dashed")+
   theme_light()+
-xlab("Año")+ylab("Temperatura (c°)")+
+xlab("Año")+
+  ylab("Temperatura (c°)")+
    scale_color_discrete(labels=c("Tmax", "Tmin"))+
   labs(colour="Temperatura")+ theme(legend.position="top")+
-scale_colour_brewer(palette="Set1")+
+scale_colour_brewer(palette="Set2")+
   labs(title = "Tendencia en la temperatura mes de Enero 1949-2018",
-       subtitle = "Estación Meteorológica Zoh Laguna")
+       subtitle = "Estación Meteorológica Zoh Laguna, Calakmul, Campeche")
+
+e
+
+marzop<-ggplot(Marzo_tidy, aes(año, temp, col=type)) + 
+geom_line()  +
+geom_smooth(linetype="dashed")+
+  theme_light()+
+xlab("Año")+ylab("Temperatura (c°)")+
+  scale_color_discrete(labels=c("Tmax", "Tmin"))+
+   labs(colour="Temperatura")+ 
+  theme(legend.position="top")+
+scale_colour_brewer(palette="Set1")+
+  labs(title = "Tendencia en la temperatura mes de marzo 1949-2018",
+       subtitle = "Estación Meteorológica Zoh Laguna, Calakmul, Campeche")+
+  scale_fill_discrete(guide="none")
+
+marzop
 ```
 
 
@@ -79,7 +110,8 @@ scale_colour_brewer(palette="Set1")+
 
 **Temperatura Máxima, Mínima Mes de Enero 1949-2018 Estación Meteorológica Zoh Laguna.**
 
-```{r, echo=FALSE, warning=FALSE,fig.height = 7, fig.width = 8}
+```{r, echo=FALSE, warning=FALSE,fig.height = 6, fig.width =10}
+
 
 eneros_spread<-spread(eneros_tidy,type, temp )
 
@@ -91,14 +123,14 @@ interactiveplot<-dygraph(eneros_spread, main = "Temperatura promedio °C") %>%
 
 interactiveplot
 ```
-**Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
+**Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION
 
 
 
 
+```{r, echo=FALSE, warning=FALSE, message = FALSE, fig.height = 6, fig.width=10}
 
 
-```{r, echo=FALSE, warning=FALSE, message = FALSE, fig.height = 7, fig.width = 8}
 library(plotly)
 e4037<-read.csv("C:/Users/josel/Desktop/on/web/lector_maia_2022/ema_climatologia.csv")
 
@@ -129,21 +161,21 @@ theme_light()+
   theme(legend.title=element_blank())+ scale_fill_manual(legend_title,values=c("firebrick1", "cyan2"),
 labels=c("Máxima", "Mínima"))+
   labs(title = "Variación en la temperatura diaria 1949-2018",
-       subtitle = "Estación Meteorológica Zoh Laguna",
-       caption = "**Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.")  
-
-
+       subtitle = "Estación Meteorológica Zoh Laguna, Calakmul, Campeche")  
 
 ggplotly(box)
 
 ```
+
 **Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
 
 
-Evolución de la precipitación promedio mensual 1949-2018
 
-```{r, fig.height =6, fig.width = 8}
+```{r, fig.height=6, fig.width = 10}
+
+
 e4037<-read.csv("C:/Users/josel/Desktop/on/web/lector_maia_2022/ema_climatologia.csv")
+
 ## to lower case var names.
 
 e4037<-clean_names(e4037)%>%na.omit()%>%
@@ -185,9 +217,12 @@ a<-ggplot(lluvia2,  aes(x=reorder(Meses,mes), y=avg,group=1))+
   theme_light()+
 theme(axis.text.x = element_text(angle = 45, hjust = .8))+
   geom_vline(xintercept =8, linetype="dashed", 
-                color = "red2", size=.8)
+                color = "red2", size=.8)+
+  labs(title = "Evolución de la precipitación promedio mensual 1949-2018", subtitle = "Estación Meteorológica Zoh Laguna, Calakmul, Campeche")
    
 a
-
 ```
+
+**Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
+
 
