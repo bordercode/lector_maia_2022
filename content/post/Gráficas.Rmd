@@ -73,7 +73,7 @@ Marzo_tidy<-Marzo%>%
 
 
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 5, fig.width=15}
+```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 9, fig.width=12}
 
 e<-ggplot(eneros_tidy, aes(año, temp, col=type)) + 
 geom_line()  +
@@ -88,7 +88,9 @@ scale_colour_brewer(palette="Set2")+
        subtitle = "Estación Meteorológica Zoh Laguna, Calakmul, Campeche")
 
 e
+```
 
+```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 6, fig.width=10}
 marzop<-ggplot(Marzo_tidy, aes(año, temp, col=type)) + 
 geom_line()  +
 geom_smooth(linetype="dashed")+
@@ -110,7 +112,7 @@ marzop
 
 **Temperatura Máxima, Mínima Mes de Enero 1949-2018 Estación Meteorológica Zoh Laguna.**
 
-```{r, echo=FALSE, warning=FALSE,fig.height = 9, fig.width =10}
+```{r, echo=FALSE, warning=FALSE,fig.height = 6, fig.width =10}
 
 
 eneros_spread<-spread(eneros_tidy,type, temp )
