@@ -72,7 +72,7 @@ Marzo_tidy<-Marzo%>%
 
 
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 5, fig.widt=15}
+```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 5, fig.width=15}
 
 e<-ggplot(eneros_tidy, aes(año, temp, col=type)) + 
 geom_line()  +
@@ -226,7 +226,7 @@ a
 **Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
 
 
-```{r}
+```{r, eval= FALSE }
 ## produccion de miel.##
 # volumen (litros), valor(pesos)
 
