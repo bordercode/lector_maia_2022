@@ -255,3 +255,4 @@ miel_pen1<-miel_pen1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = 
 ```
 
 
+## Producción de miel
