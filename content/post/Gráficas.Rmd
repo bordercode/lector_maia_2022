@@ -250,7 +250,7 @@ fn<-data.frame(edo=c("Nuevo León", "Chihuahua", "Coahuila", "Tamaulipas", "Sono
 
 miel1<-miel%>%mutate(Región=ifelse(edo%in%Península$edo, "Península",ifelse(edo%in%fn$edo, "FronteraNorte", "Resto")))
 
-miel_pen<-filter(miel1, región=="Península")
+miel_pen<-filter(miel1, Región=="Península")
   
 miel_pen1<-distinct(miel_pen, mun, .keep_all = TRUE)
 
@@ -280,12 +280,14 @@ prod
 
 ```{r, fig.height=6, fig.width = 10}
 
-m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, color= Región, text = paste("Municipio: ", mun))) +
+m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, color= Región)) +
     geom_point(alpha=0.3)+
     scale_size(range = c(.1, 15), name="Valor (Pesos)")+
   theme_light()+
   xlab("Volumen (litros)")+
   ylab("Valor (Pesos)")
+
+
 
 
 ggplotly(m)
