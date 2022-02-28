@@ -5,6 +5,7 @@ date: 2022-01-25T21:13:14-05:00
 categories: ["Tesis"]
 tags: ["Documentación", "Marco teórico", "Metodología"]
 bibliography: citations.bib
+csl: apa-5th-edition.csl
 link-citations: yes
 ---
 
@@ -49,7 +50,7 @@ beauty of the biotic community.  It is wrong when it tends otherwise” (Leopold
 Para medir indicadores de integridad una metodología común es el contraste de las variables de interés entre dos momentos. ej. *Deviation of an indicator variable from a reference relationship is a measure of integrity.*
 
 
-## Literatura sobre el Marco teórico. 
+## Material sugerido para revisar sobre  el marco teórico. 
 
 
 ### Economía Ecológica.
