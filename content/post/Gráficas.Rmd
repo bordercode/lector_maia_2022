@@ -251,7 +251,6 @@ miel_pen1<-distinct(miel_pen, mun, .keep_all = TRUE)
 
 miel_pen1<-miel_pen1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))  
 
-
 ```
 
 
