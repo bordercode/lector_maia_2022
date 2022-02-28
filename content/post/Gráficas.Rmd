@@ -279,18 +279,17 @@ prod
 
 
 ```{r, fig.height=6, fig.width = 10}
+miel1<-rename(miel1, Municipio=mun)
 
-m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, color= Región)) +
+m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, color= Región, label = Municipio)) +
     geom_point(alpha=0.3)+
     scale_size(range = c(.1, 15), name="Valor (Pesos)")+
   theme_light()+
   xlab("Volumen (litros)")+
   ylab("Valor (Pesos)")
 
+ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio"))
 
-
-
-ggplotly(m)
 
 
 ```
