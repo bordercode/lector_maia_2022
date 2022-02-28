@@ -16,7 +16,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 Comentarios generales sobre las perspectiva conceptual de la investigación: 
 
-Se tienen dos vertientes generales: 
+Se tienen al menos tres vertientes generales: 
 
 + Desarrollo Comunitario
 + Cambio climático y escenarios de adaptación y mitigación. 
