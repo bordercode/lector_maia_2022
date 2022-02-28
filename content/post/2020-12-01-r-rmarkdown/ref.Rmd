@@ -54,8 +54,8 @@ Para medir indicadores de integridad una metodología común es el contraste de 
 ### Economía Ecológica.
 
 
-Un texto sobre la importancia de las variables biofisicas en la concepción teorica de ecological economics [@MELGARMELGAR2020106567].
+Un texto sobre la importancia de las variables biofisicas en la concepción teorica de ecological economics[@MELGARMELGAR2020106567].
 
-
+La relación entre el entono natural y el social bajo la mirada del campo eclogical economics se puede observar en [@SPASH2020106518]
 
 # References
