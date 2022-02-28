@@ -228,7 +228,7 @@ a
 **Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
 
 
-```{r, eval= FALSE }
+```{r }
 ## produccion de miel.##
 # volumen (litros), valor(pesos)
 
@@ -236,10 +236,10 @@ miel<-read.csv("C:/Users/josel/Desktop/on/I/2022/tesis_lector/data/Prodmiel2018m
 
 campeche<-filter(miel, edo=="Campeche")
 
-glimpse(miel)
+
 camp1<-distinct(campeche, mun, .keep_all = TRUE)
-glimpse(camp1)
-725+158
+
+
 
 camp2<-camp1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))
 
@@ -253,8 +253,24 @@ miel_pen1<-distinct(miel_pen, mun, .keep_all = TRUE)
 
 miel_pen1<-miel_pen1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))  
 
+
+top20pen<-slice_max(miel_pen1,vol,n=20)
+
+```
+
+**Producción de miel en la Península de Yucatán.**
+
+
+```{r, fig.height=6, fig.width = 10  }
+prod<-ggplot(top20pen,aes(x = vol,y = reorder(mun, vol), fill=edo)) +
+geom_col()+
+  xlab("Volumen (litros)")+
+  ylab("Municipio")+
+  theme_light()+
+labs(title = "Principales Municipios Productores", subtitle =  "Península de Yucatán 2018")
+
+prod
+
 ```
 
 
-
-## Producción de miel
