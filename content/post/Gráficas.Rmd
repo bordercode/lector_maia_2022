@@ -110,7 +110,7 @@ marzop
 
 **Temperatura Máxima, Mínima Mes de Enero 1949-2018 Estación Meteorológica Zoh Laguna.**
 
-```{r, echo=FALSE, warning=FALSE,fig.height = 6, fig.width =10}
+```{r, echo=FALSE, warning=FALSE,fig.height = 9, fig.width =10}
 
 
 eneros_spread<-spread(eneros_tidy,type, temp )
