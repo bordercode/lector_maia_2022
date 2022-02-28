@@ -245,8 +245,10 @@ camp1<-distinct(campeche, mun, .keep_all = TRUE)
 camp2<-camp1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))
 
 Península<-data.frame(edo=c("Yucatán", "Campeche", "Quintana Roo"))
+fn<-data.frame(edo=c("Nuevo León", "Chihuahua", "Coahuila", "Tamaulipas", "Sonora", "Baja California" ))
 
-miel1<-miel%>%mutate(región=ifelse(edo%in%Península$edo, "Península","otro"))
+
+miel1<-miel%>%mutate(Región=ifelse(edo%in%Península$edo, "Península",ifelse(edo%in%fn$edo, "FronteraNorte", "Resto")))
 
 miel_pen<-filter(miel1, región=="Península")
   
@@ -277,12 +279,13 @@ prod
 
 ```{r, fig.height=6, fig.width = 10}
 
-m<-ggplot(miel1, aes(x=vol, y=valor, size = valor, color= región)) +
-    geom_point(alpha=0.7)+
-    scale_size(range = c(.1, 10), name="Population (M)")+
-  theme_light()
-
-
+m<-ggplot(miel1, aes(x=vol, y=valor, size = valor, color= Región)) +
+    geom_point(alpha=0.3)+
+    scale_size(range = c(.1, 15), name="Valor (Pesos)")+
+  theme_light()+
+  xlab("Volumen (litros)")+
+  ylab("Valor (Pesos)")
+  
 ggplotly(m)
 
 
