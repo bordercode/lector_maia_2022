@@ -265,6 +265,7 @@ top20pen<-slice_max(miel_pen1,vol,n=20)
 
 
 ```{r, fig.height=6, fig.width = 10  }
+
 prod<-ggplot(top20pen,aes(x = vol,y = reorder(mun, vol), fill=edo)) +
 geom_col()+
   xlab("Volumen (litros)")+
@@ -279,13 +280,14 @@ prod
 
 ```{r, fig.height=6, fig.width = 10}
 
-m<-ggplot(miel1, aes(x=vol, y=valor, size = valor, color= Región)) +
+m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, color= Región, text = paste("Municipio: ", mun))) +
     geom_point(alpha=0.3)+
     scale_size(range = c(.1, 15), name="Valor (Pesos)")+
   theme_light()+
   xlab("Volumen (litros)")+
   ylab("Valor (Pesos)")
-  
+
+m  
 ggplotly(m)
 
 
