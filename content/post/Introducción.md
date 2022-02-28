@@ -162,3 +162,4 @@ Analizar las variaciones climáticas de sequía y precipitación en los últimos
 ![](/ipcc2.jpg)
 |:--:|
 | <b> Fuente: IPCC</b>|
+
