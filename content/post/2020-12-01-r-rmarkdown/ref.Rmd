@@ -56,6 +56,8 @@ Para medir indicadores de integridad una metodología común es el contraste de 
 
 Un texto sobre la importancia de las variables biofisicas en la concepción teorica de ecological economics[@MELGARMELGAR2020106567].
 
-La relación entre el entono natural y el social bajo la mirada del campo eclogical economics se puede observar en [@SPASH2020106518]
+La relación entre el entono natural y el social bajo la mirada del campo eclogical economics se puede observar en [@SPASH2020106518]. Quines indican enfatizan;   How Nature and society are interrelated raises issues of non-monetary valuation, plural values [@SPASH2020106518].
+
+Este trabajo se cuestiona también el compromiso por el crecimiento que la teoria economica cpnvencional postula. *By the 1980s, amongst economists, Herman Daly was holding the anti-growth fort almost single-handed, until the rise of modern ecological economics* [@SPASH2020106518]. 
 
 # References
