@@ -15,6 +15,7 @@ library(dygraphs)
 library(plotly)
 ```
 
+En esta sección se incluyen herramientas visuales para comprender el comportamiento de las variables de interés para la tesis. Estas gráficas no son presentaciones finales, unicamente son parte del proceso de analisis exploratorio de datos y su propósito es aportar elemnetos para la argumentación.
 
 ```{r}
 
@@ -98,14 +99,13 @@ xlab("Año")+ylab("Temperatura (c°)")+
   theme(legend.position="top")+
 scale_colour_brewer(palette="Set1")+
   labs(title = "Tendencia en la temperatura mes de marzo 1949-2018",
-       subtitle = "Estación Meteorológica Zoh Laguna, Calakmul, Campeche")+
+       subtitle = "Estación Meteorológica Zoh Laguna, Calakmul, Campeche", 
+       caption = "Fuente: CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA")+
   scale_fill_discrete(guide="none")
 
 marzop
 ```
 
-
-**Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
 
 
 **Temperatura Máxima, Mínima Mes de Enero 1949-2018 Estación Meteorológica Zoh Laguna.**
