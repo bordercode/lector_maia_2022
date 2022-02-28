@@ -13,6 +13,7 @@ suppressPackageStartupMessages(library(tidyverse))
 library(janitor)
 library(dygraphs)
 library(plotly)
+
 ```
 
 En esta sección se incluyen herramientas visuales para comprender el comportamiento de las variables de interés para la tesis. Estas gráficas no son presentaciones finales, unicamente son parte del proceso de analisis exploratorio de datos y su propósito es aportar elemnetos para la argumentación.
@@ -73,7 +74,7 @@ Marzo_tidy<-Marzo%>%
 
 
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 9, fig.width=12}
+```{r, echo=FALSE, warning=FALSE, message=FALSE,fig.height = 9, fig.width=10}
 
 e<-ggplot(eneros_tidy, aes(año, temp, col=type)) + 
 geom_line()  +
@@ -133,7 +134,7 @@ interactiveplot
 ```{r, echo=FALSE, warning=FALSE, message = FALSE, fig.height = 6, fig.width=10}
 
 
-library(plotly)
+
 e4037<-read.csv("C:/Users/josel/Desktop/on/web/lector_maia_2022/ema_climatologia.csv")
 
 e4037<-clean_names(e4037)
@@ -273,4 +274,17 @@ prod
 
 ```
 
+
+```{r, fig.height=6, fig.width = 10}
+
+m<-ggplot(miel1, aes(x=vol, y=valor, size = valor, color= región)) +
+    geom_point(alpha=0.7)+
+    scale_size(range = c(.1, 10), name="Population (M)")+
+  theme_light()
+
+
+ggplotly(m)
+
+
+```
 
