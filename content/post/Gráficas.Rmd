@@ -229,71 +229,6 @@ a
 **Fuente:** CNA-SMN-CG-GMC-SMAA-CLIMATOLOGIA, BASE DE DATOS CLIMATOLOGICA, [Disponible en:](https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/4037.txt) ESTACION  : 4037, NOMBRE: ZOH LAGUNA, MUNICIPIO : CALAKMUL, LATITUD: 018.592, LONGITUD: -089.417. ALTITUD: 265 msnm.
 
 
-```{r }
-## produccion de miel.##
-# volumen (litros), valor(pesos)
-
-miel<-read.csv("C:/Users/josel/Desktop/on/I/2022/tesis_lector/data/Prodmiel2018muni.csv")
-
-campeche<-filter(miel, edo=="Campeche")
-
-
-camp1<-distinct(campeche, mun, .keep_all = TRUE)
-
-
-
-camp2<-camp1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))
-
-Península<-data.frame(edo=c("Yucatán", "Campeche", "Quintana Roo"))
-fn<-data.frame(edo=c("Nuevo León", "Chihuahua", "Coahuila", "Tamaulipas", "Sonora", "Baja California" ))
-
-
-miel1<-miel%>%mutate(Región=ifelse(edo%in%Península$edo, "Península",ifelse(edo%in%fn$edo, "FronteraNorte", "Centro")))
-
-miel_pen<-filter(miel1, Región=="Península")
-  
-miel_pen1<-distinct(miel_pen, mun, .keep_all = TRUE)
-
-miel_pen1<-miel_pen1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))  
-
-
-top20pen<-slice_max(miel_pen1,vol,n=20)
-
-```
-
-**Producción de miel en la Península de Yucatán.**
-
-
-```{r, fig.height=6, fig.width = 10  }
-
-prod<-ggplot(top20pen,aes(x = vol,y = reorder(mun, vol), fill=edo)) +
-geom_col()+
-  xlab("Volumen (litros)")+
-  ylab("Municipio")+
-  theme_light()+
-labs(title = "Principales Municipios Productores", subtitle =  "Península de Yucatán 2018")
-
-prod
-
-```
-
-
-```{r, fig.height=6, fig.width = 10}
-miel1<-rename(miel1, Municipio=mun, Estado=edo)
-
-m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, label = Municipio, color= Región)) +
-geom_point(alpha=0.3)+
-scale_size(range = c(.2, 13), name="Valor (Pesos)")+
-  theme_light()+
-  xlab("Volumen (litros)")+
-  ylab("Valor (Pesos)")
-
-
-
-
-ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
-
-```
 
 ```{r}
 library(stringr)
@@ -345,4 +280,73 @@ top3plot
 ## 2017 Un año especial de Huracanes.  que afectaron la península  de Yucatán. 
 ```
 
+
+
+
+```{r }
+## produccion de miel.##
+# volumen (litros), valor(pesos)
+
+miel<-read.csv("C:/Users/josel/Desktop/on/I/2022/tesis_lector/data/Prodmiel2018muni.csv")
+
+campeche<-filter(miel, edo=="Campeche")
+
+
+camp1<-distinct(campeche, mun, .keep_all = TRUE)
+
+
+
+camp2<-camp1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))
+
+Península<-data.frame(edo=c("Yucatán", "Campeche", "Quintana Roo"))
+fn<-data.frame(edo=c("Nuevo León", "Chihuahua", "Coahuila", "Tamaulipas", "Sonora", "Baja California" ))
+
+
+miel1<-miel%>%mutate(Región=ifelse(edo%in%Península$edo, "Península",ifelse(edo%in%fn$edo, "FronteraNorte", "Centro")))
+
+miel_pen<-filter(miel1, Región=="Península")
+  
+miel_pen1<-distinct(miel_pen, mun, .keep_all = TRUE)
+
+miel_pen1<-miel_pen1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))  
+
+
+top20pen<-slice_max(miel_pen1,vol,n=20)
+
+```
+
+**Producción de miel por Municipio en la Península de Yucatán.**
+
+
+```{r, fig.height=6, fig.width = 10  }
+
+prod<-ggplot(top20pen,aes(x = vol,y = reorder(mun, vol), fill=edo)) +
+geom_col()+
+  xlab("Volumen (litros)")+
+  ylab("Municipio")+
+  theme_light()+
+labs(title = "Principales Municipios Productores", subtitle =  "Península de Yucatán 2018")
+
+prod
+
+```
+
+**Valor de la Producción. Distribución regional. 2018.**
+
+```{r, fig.height=6, fig.width = 10}
+miel1<-rename(miel1, Municipio=mun, Estado=edo)
+
+m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, label = Municipio, color= Región)) +
+geom_point(alpha=0.3)+
+scale_size(range = c(.2, 13), name="Valor (Pesos)")+
+  theme_light()+
+  xlab("Volumen (litros)")+
+  ylab("Valor (Pesos)")
+
+
+
+
+ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
+
+```
 
