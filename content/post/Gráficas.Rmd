@@ -353,3 +353,33 @@ ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
 
 ```
 Fuente: Elabración propia con datos de [SIACON](https://www.gob.mx/siap/acciones-y-programas/produccion-agricola-33119)
+
+
+**Estacionalidad en estados de la  Península de Yucatán** 
+```{r, fig.height=6, fig.width = 10}
+mes<-read.csv("C:/Users/josel/Desktop/on/I/2022/tesis_lector/data/mes_edo_2018.csv")
+
+mes_long<-gather(mes, month, prod, Enero:Diciembre)%>%
+  mutate(Estado=as.factor(Estado), month=as.character(month), prod=as.numeric(prod))%>%na.omit()
+
+pyuc<-filter(mes_long, Estado=="QUINTANA ROO"| Estado=="CAMPECHE"|Estado=="YUCATÁN")
+
+
+promedio<-  group_by(mes_long, month)%>%
+  summarize(med=mean(prod))
+  
+ggplot(pyuc, aes(x=fct_inorder(month), y=prod, fill=Estado, ))+
+geom_bar(stat="identity", position=position_dodge())+
+  theme_light()+ 
+ theme(axis.text.x = element_text(angle = 45))+
+  xlab("Mes")+
+  ylab("Toneladas")+ 
+  ggtitle("Producción por mes. Ciclo 2021")+
+  scale_fill_brewer(palette="Spectral")
+```
+Fuente:  Elaboración propia con dats de [siap](http://infosiap.siap.gob.mx/repoAvance_siap_gb/pecAvanceProd.jsp)
+
+
+Entre febrero y abril la mayor producción. Buscar datos de heladas entre estos meses. Y los previos de diciembre y enero.
+
+
