@@ -312,20 +312,22 @@ miel_pen1<-miel_pen1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = 
 
 
 top20pen<-slice_max(miel_pen1,vol,n=20)
-
+top20pen<-rename(top20pen, Estado=edo)
 ```
 
 **Producción de miel por Municipio en la Península de Yucatán.**
 
 
-```{r, fig.height=6, fig.width = 10  }
+```{r, fig.height=8, fig.width = 12  }
 
-prod<-ggplot(top20pen,aes(x = vol,y = reorder(mun, vol), fill=edo)) +
+
+prod<-ggplot(top20pen,aes(x = vol,y = reorder(mun, vol), fill=Estado)) +
 geom_col()+
   xlab("Volumen (litros)")+
   ylab("Municipio")+
   theme_light()+
-labs(title = "Principales Municipios Productores", subtitle =  "Península de Yucatán 2018")
+labs(title = "Principales Municipios Productores", subtitle =  "Península de Yucatán 2018")+ theme(legend.justification=c(1,0), legend.position=c(.8,.3))
+
 
 prod
 
