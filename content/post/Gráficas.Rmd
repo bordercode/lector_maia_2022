@@ -309,7 +309,7 @@ miel_pen<-filter(miel1, Región=="Península")
 miel_pen1<-distinct(miel_pen, mun, .keep_all = TRUE)
 
 miel_pen1<-miel_pen1%>%mutate(vol = replace(vol, mun == "Calakmul", 883), vol = replace(vol, mun == "Escárcega", 273))  
-
+miel1<-rename(miel1, Municipio=mun, Estado=edo)
 
 top20pen<-slice_max(miel_pen1,vol,n=20)
 top20pen<-rename(top20pen, Estado=edo)
@@ -337,7 +337,7 @@ Fuente: Elabración propia con datos de [SIACON](https://www.gob.mx/siap/accione
 **Valor de la Producción. Distribución regional. 2018.**
 
 ```{r, fig.height=6, fig.width = 10}
-miel1<-rename(miel1, Municipio=mun, Estado=edo)
+
 
 m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, label = Municipio, label2= Estado, color= Región)) +
 geom_point(alpha=0.3)+
