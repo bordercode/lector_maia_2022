@@ -325,9 +325,13 @@ final3<-spread(final3, Estado,prod)
 
 final3<-final3%>%
   mutate(year=as.integer(year))
-  
+```
 
-top3plot<-dygraph(final3, main = "3 Principales productores de Miel en México") %>%
+ **Evolución de la producción de miel en México 1980-2020.**
+```{r, fig.height=6, fig.width = 10}
+
+  
+top3plot<-dygraph(final3, main = "Principales estados productores") %>%
   dyRangeSelector()%>%
     dyHighlight(highlightCircleSize = 3, 
               highlightSeriesBackgroundAlpha = 0.2,
