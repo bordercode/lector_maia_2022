@@ -334,7 +334,7 @@ top3plot<-dygraph(final3, main = "3 Principales productores de Miel en México")
               hideOnMouseOut = FALSE)%>%
   dySeries("Jalisco", fillGraph = TRUE, color = "red")%>%
 dyAxis("y", label = "Miles de litros")%>%
-dyEvent("2017", "Huracán Harvey", labelLoc = "bottom", color = "red")
+dyEvent("2017", "Huracán Harvey", labelLoc = "bottom", color = "blue")
 
 top3plot
 
