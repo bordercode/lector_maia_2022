@@ -281,7 +281,7 @@ prod
 ```{r, fig.height=6, fig.width = 10}
 miel1<-rename(miel1, Municipio=mun, Estado=edo)
 
-m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, label = "Estado", color= Región)) +
+m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, label = Municipio, color= Región)) +
 geom_point(alpha=0.3)+
 scale_size(range = c(.2, 13), name="Valor (Pesos)")+
   theme_light()+
@@ -294,4 +294,51 @@ scale_size(range = c(.2, 13), name="Valor (Pesos)")+
 ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
 
 ```
+
+```{r}
+library(stringr)
+
+y_miel80_20 <- read.delim("C:/Users/josel/Desktop/on/I/2022/tesis_lector/data/Miel_prod_edo-1980-2020.txt")%>%
+  rename(Estado=X)
+
+ 
+
+y2<-gather(y_miel80_20, year, prod, X1980:X2020)%>%
+  mutate(year=str_sub(year,2,5))
+
+ave<-group_by(y2, Estado)%>% 
+  summarize(med=mean(prod))
+
+top3<-ave%>%top_n(3)
+
+
+y2<-y2%>%mutate(top3=ifelse(Estado%in%top3$Estado, 1,0))
+y2t3<-filter(y2,top3==1)
+
+final3<-select(y2t3, Estado:prod)
+final3<-spread(final3, Estado,prod)
+
+#ggplot(y2t3, aes(x=factor(year), y=prod, group=Estado, color=Estado))+
+   #geom_line()+
+  #theme_light()+ 
+ # theme(axis.text.x = element_text(angle = 45))
+
+final3<-final3%>%
+  mutate(year=as.integer(year))
+  
+
+top3plot<-dygraph(final3, main = "3 Principales productores de Miel en México") %>%
+  dyRangeSelector()%>%
+    dyHighlight(highlightCircleSize = 3, 
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE)%>%
+  dySeries("Jalisco", fillGraph = TRUE, color = "red")%>%
+dyAxis("y", label = "Miles de litros")%>%
+dyEvent("2017", "Huracán Harvey", labelLoc = "bottom", color = "red")
+
+top3plot
+
+## 2017 Un año especial de Huracanes.  que afectaron la península  de Yucatán. 
+```
+
 
