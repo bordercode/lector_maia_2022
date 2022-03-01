@@ -339,7 +339,7 @@ Fuente: Elabración propia con datos de [SIACON](https://www.gob.mx/siap/accione
 ```{r, fig.height=6, fig.width = 10}
 miel1<-rename(miel1, Municipio=mun, Estado=edo)
 
-m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, label = Municipio, color= Región)) +
+m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, label = Municipio, label2= Estado, color= Región)) +
 geom_point(alpha=0.3)+
 scale_size(range = c(.2, 13), name="Valor (Pesos)")+
   theme_light()+
