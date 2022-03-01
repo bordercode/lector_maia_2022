@@ -356,6 +356,7 @@ Fuente: Elabración propia con datos de [SIACON](https://www.gob.mx/siap/accione
 
 
 **Estacionalidad en estados de la  Península de Yucatán** 
+
 ```{r, fig.height=6, fig.width = 10}
 mes<-read.csv("C:/Users/josel/Desktop/on/I/2022/tesis_lector/data/mes_edo_2018.csv")
 
@@ -375,8 +376,10 @@ geom_bar(stat="identity", position=position_dodge())+
   xlab("Mes")+
   ylab("Toneladas")+ 
   ggtitle("Producción por mes. Ciclo 2021")+
-  scale_fill_brewer(palette="Spectral")
+  scale_fill_brewer(palette="Spectral")+
+  theme(legend.justification=c(1,0), legend.position=c(.9,.7))
 ```
+
 Fuente:  Elaboración propia con dats de [siap](http://infosiap.siap.gob.mx/repoAvance_siap_gb/pecAvanceProd.jsp)
 
 
