@@ -280,7 +280,7 @@ top3plot
 ## 2017 Un año especial de Huracanes.  que afectaron la península  de Yucatán. 
 ```
 
-
+Fuente: Elabración propia con datos de [SIACON](https://www.gob.mx/siap/acciones-y-programas/produccion-agricola-33119)
 
 
 ```{r }
@@ -332,6 +332,7 @@ labs(title = "Principales Municipios Productores", subtitle =  "Península de Yu
 prod
 
 ```
+Fuente: Elabración propia con datos de [SIACON](https://www.gob.mx/siap/acciones-y-programas/produccion-agricola-33119)
 
 **Valor de la Producción. Distribución regional. 2018.**
 
@@ -351,4 +352,4 @@ scale_size(range = c(.2, 13), name="Valor (Pesos)")+
 ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
 
 ```
-
+Fuente: Elabración propia con datos de [SIACON](https://www.gob.mx/siap/acciones-y-programas/produccion-agricola-33119)
