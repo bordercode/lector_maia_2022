@@ -290,7 +290,7 @@ scale_size(range = c(.2, 13), name="Valor (Pesos)")+
 
 
 
-ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
+ggplotly(m,tooltip = c( "label"))
 
 
 
