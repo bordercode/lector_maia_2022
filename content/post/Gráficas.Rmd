@@ -281,7 +281,7 @@ prod
 ```{r, fig.height=6, fig.width = 10}
 miel1<-rename(miel1, Municipio=mun, Estado=edo)
 
-m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, color= Región, label = Municipio)) +
+m<-ggplot(miel1, aes(x=vol, y=valor,  size = valor, label = "Estado", color= Región)) +
 geom_point(alpha=0.3)+
 scale_size(range = c(.2, 13), name="Valor (Pesos)")+
   theme_light()+
@@ -290,9 +290,8 @@ scale_size(range = c(.2, 13), name="Valor (Pesos)")+
 
 
 
-ggplotly(m,tooltip = c( "label"))
 
-
+ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
 
 ```
 
