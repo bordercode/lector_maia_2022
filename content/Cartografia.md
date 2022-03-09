@@ -36,9 +36,7 @@ weight: 50
 ![](/Mapa_Base.png)
 
 
-#### Distribución de producción de Miel a escala municipal en México 2020.
 
-![](/Municipios_Miel_2020.png)
 
 
 
