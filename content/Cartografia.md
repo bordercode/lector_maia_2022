@@ -28,3 +28,18 @@ weight: 50
 
 
 [Descirpción importancia de Calakmul](https://iefectividad.conanp.gob.mx/i-efectividad/PYyCM/RB%20Calakmul/1.%20%C3%8DNDICE%20DEL%20COMPONENTE%20DE%20CONTEXTO%20Y%20PLANEACI%C3%93N_/2%E2%80%A2%20Poligonal%20y%20L%C3%ADmites_/2.PyL-Investigaci%C3%B3n/La%20Gran%20Regi%C3%B3n%20de%20Calakmul.pdf)
+
+
+
+#### Area de la investigación. 
+
+![](/Mapa_Base.png)
+
+
+#### Distribución de producción de Miel a escala municipal en México 2020.
+
+![](/Municipios_Miel_2020.png)
+
+
+
+

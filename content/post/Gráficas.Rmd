@@ -347,7 +347,7 @@ scale_size(range = c(.2, 13), name="Valor (Pesos)")+
   ylab("Valor (Pesos)")
 
 
-
+m
 
 ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
 
@@ -355,7 +355,7 @@ ggplotly(m,tooltip = c( "valor", "vol", "Región", "Municipio", "Estado"))
 Fuente: Elabración propia con datos de [SIACON](https://www.gob.mx/siap/acciones-y-programas/produccion-agricola-33119)
 
 
-**Estacionalidad en estados de la  Península de Yucatán** 
+**Estacionalidad de la procución. Entindades de la  Península de Yucatán** 
 
 ```{r, fig.height=6, fig.width = 10}
 mes<-read.csv("C:/Users/josel/Desktop/on/I/2022/tesis_lector/data/mes_edo_2018.csv")
@@ -380,9 +380,11 @@ geom_bar(stat="identity", position=position_dodge())+
   theme(legend.justification=c(1,0), legend.position=c(.9,.7))
 ```
 
-Fuente:  Elaboración propia con dats de [siap](http://infosiap.siap.gob.mx/repoAvance_siap_gb/pecAvanceProd.jsp)
+Fuente:  Elaboración propia con datos de [siap](http://infosiap.siap.gob.mx/repoAvance_siap_gb/pecAvanceProd.jsp)
 
 
 Entre febrero y abril la mayor producción. Buscar datos de heladas entre estos meses. Y los previos de diciembre y enero.
+
+
 
 
