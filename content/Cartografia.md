@@ -31,7 +31,7 @@ weight: 50
 
 
 
-#### Area de la investigación. 
+**Sitios de trabajo de campo: José María MOrelos y Sabana San Francisco. **
 
 ![](/Mapa_Base.png)
 
