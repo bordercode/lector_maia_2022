@@ -31,11 +31,12 @@ weight: 50
 
 
 
-**Sitios de trabajo de campo: José María MOrelos y Sabana San Francisco. **
+**Sitios de trabajo de campo:** 
+José María Morelos y Sabana San Francisco.
 
 ![](/Mapa_Base.png)
 
-**Area de Estudio** Nuevo Becal, Campeche.
+**Area de Estudio:** Nuevo Becal, Campeche.
 ![](/Nuevo_Becal.png)
 
 
