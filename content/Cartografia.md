@@ -35,7 +35,8 @@ weight: 50
 
 ![](/Mapa_Base.png)
 
-![](/Nuevo Becal.png)
+**Area de Estudio** Nuevo Becal, Campeche.
+![](/Nuevo_Becal.png)
 
 
 
