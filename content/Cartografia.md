@@ -35,7 +35,7 @@ weight: 50
 
 ![](/Mapa_Base.png)
 
-
+![](/Nuevo Becal.png)
 
 
 
