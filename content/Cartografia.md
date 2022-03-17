@@ -39,8 +39,9 @@ José María Morelos y Sabana San Francisco.
 **Area de Estudio:** Nuevo Becal, Campeche.
 ![](/Nuevo_Becal.png)
 
-**Producción de Miel en 2020 en la península de Yucatán. Escala Municipal**
+**Producción de Miel en 2020.** Península de Yucatán. Escala Municipal**
 ![](/Municipios_Miel.png)
+
 
 
 
